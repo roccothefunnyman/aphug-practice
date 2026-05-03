@@ -315,6 +315,17 @@ html, body {
   letter-spacing: 0.4px;
 }
 
+/* Set tags (S1 / S2) */
+.tag-set { font-weight: 700; }
+.tag-set-1 { background: rgba(96,165,250,0.22); color: #bfdbfe; }
+.tag-set-2 { background: rgba(167,139,250,0.22); color: #ddd6fe; }
+:root[data-theme="light"] .tag-set-1 { background: #dbeafe; color: #1d4ed8; }
+:root[data-theme="light"] .tag-set-2 { background: #ede9fe; color: #6d28d9; }
+.picker-tag.set-tag-1 { background: rgba(96,165,250,0.22); color: #bfdbfe; }
+.picker-tag.set-tag-2 { background: rgba(167,139,250,0.22); color: #ddd6fe; }
+:root[data-theme="light"] .picker-tag.set-tag-1 { background: #dbeafe; color: #1d4ed8; }
+:root[data-theme="light"] .picker-tag.set-tag-2 { background: #ede9fe; color: #6d28d9; }
+
 .cs-button {
   margin-left: auto;
   font: inherit;

@@ -445,10 +445,11 @@
         const mClass = m === "correct" ? "correct" : (m === "wrong" ? "wrong" : "unseen");
         const stem = stripMd(q.question_text || "");
         const preview = stem.length > 110 ? stem.slice(0, 107) + "..." : stem;
+        const setTag = `<span class="picker-tag set-tag-${q.set}">S${q.set}</span>`;
         return `<label class="picker-row${checked ? " is-checked" : ""}" data-id="${escapeHtml(q.id)}">
           <input type="checkbox" ${checked ? "checked" : ""} data-id="${escapeHtml(q.id)}">
-          <span class="picker-row-id">Q${String(q.question_number).padStart(2,"0")}</span>
-          <span class="picker-row-meta"><span class="picker-mastery ${mClass}"></span></span>
+          <span class="picker-row-id">S${q.set} Q${String(q.question_number).padStart(2,"0")}</span>
+          <span class="picker-row-meta"><span class="picker-mastery ${mClass}"></span>${setTag}</span>
           <span class="picker-row-stem">${escapeHtml(preview)}</span>
         </label>`;
       }).join("");
@@ -504,6 +505,9 @@
           if (preset.startsWith("unit-")) {
             const u = parseInt(preset.slice(5), 10);
             include = q.unit === u;
+          } else if (preset.startsWith("set-")) {
+            const s = parseInt(preset.slice(4), 10);
+            include = q.set === s;
           }
       }
       if (include) pickerSelected.add(q.id);
@@ -615,8 +619,10 @@
 
   /* ---------- Slide rendering ---------- */
   function renderHeader(q) {
+    const setLabel = q.set_label || ("Set " + q.set);
     const tags = [
-      `<span class="tag">Q${q.question_number} of ${questions.length}</span>`,
+      `<span class="tag tag-set tag-set-${q.set}">${escapeHtml(setLabel)}</span>`,
+      `<span class="tag">Q${q.question_number}</span>`,
       `<span class="tag tag-cat-unit-${q.unit}">${escapeHtml(unitShort(q.unit))}: ${escapeHtml(unitLabel(q.unit))}</span>`,
     ];
     const ttsAvailable = !!(window.Voice && Voice.hasTTS);
@@ -780,7 +786,7 @@
 
   function questionPlainText(q) {
     const stem = stripMd(q.question_text || "");
-    const lines = [`Q${q.question_number} (${unitShort(q.unit)})`, "", stem];
+    const lines = [`${q.set_label || ("Set " + q.set)} Q${q.question_number} (${unitShort(q.unit)})`, "", stem];
     if (q.options && q.options.length) {
       lines.push("");
       q.options.forEach(opt => { lines.push(`${opt.letter}. ${opt.text}`); });

@@ -1,14 +1,14 @@
 # AP Human Geography Practice
 
-A static quiz app of 60 multiple-choice practice questions covering all 7 College Board AP Human Geography units. Built for studying for the AP exam.
+A static quiz app of 120 multiple-choice practice questions (two independent 60-question sets) covering all 7 College Board AP Human Geography units. Built for studying for the AP exam.
 
 Live: see GitHub Pages URL for this repo (`/app/`).
 
 ## What's here
 
-- `source/AP_HuG_Practice_Questions.md` — the 60 questions, grouped by unit
-- `source/AP_HuG_Practice_Answers.md` — the answer key with letter, headline explanation, topic code, and skill code per question
-- `build.py` — parses the two source files into `app/questions.json`
+- `source/AP_HuG_Practice_Questions.md` + `_Answers.md` — Set 1 (60 questions)
+- `source/AP_HuG_Practice_Questions_Set2.md` + `_Answers_Set2.md` — Set 2 (60 questions, slightly different markdown format)
+- `build.py` — parses both sets into `app/questions.json` (120 questions, with Set 2 ids prefixed `s2-` so mastery for Set 1 survives)
 - `app/` — the static web app (HTML / CSS / vanilla JS)
 
 ## Build
@@ -36,9 +36,9 @@ If you change `app.js` or `style.css` in a way that depends on new HTML markup, 
 
 ## App features
 
-- 60 questions, shuffled per session
+- 120 questions across two sets, shuffled per session
 - Per-unit progress bars (7 AP HuG units)
-- Picker modal: pick All, by unit, only Wrong, only Unanswered, only Correct
+- Picker modal: pick All, by set (Set 1 only / Set 2 only), by unit, only Wrong, only Unanswered, only Correct
 - Mastery persists in `localStorage` (`Reset progress` clears it)
 - Light / dark theme
 - Voice support: read-aloud (TTS), push-to-talk answers (ASR), and a hands-free voice-only mode
