@@ -1,0 +1,2015 @@
+{
+  "questions": [
+    {
+      "id": "q01",
+      "question_number": 1,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A textbook published in the early 1900s claims that tropical climates inevitably produce slow-paced cultures, while temperate climates breed industrious societies. This argument is most clearly an example of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Possibilism"
+        },
+        {
+          "letter": "B",
+          "text": "Environmental determinism"
+        },
+        {
+          "letter": "C",
+          "text": "Cultural ecology"
+        },
+        {
+          "letter": "D",
+          "text": "Spatial diffusion"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Environmental determinism",
+      "explanation_md": "The argument that climate *inevitably* dictates cultural traits is the textbook definition of environmental determinism, an early 20th-century view now widely rejected. Possibilism (the modern alternative) emphasizes that the environment sets limits but humans choose among many possibilities.",
+      "topic_code": "1.5",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q02",
+      "question_number": 2,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A researcher studying obesity rates in the United States finds that the national average is about 36 percent, but rates within Mississippi range from 20 percent in some counties to over 50 percent in others. What does this finding most clearly illustrate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "National-scale data accurately reflects local conditions"
+        },
+        {
+          "letter": "B",
+          "text": "Patterns visible at one scale of analysis may obscure variation at another scale"
+        },
+        {
+          "letter": "C",
+          "text": "The United States has uniformly high obesity rates"
+        },
+        {
+          "letter": "D",
+          "text": "Choropleth maps are unreliable at the state scale"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Patterns visible at one scale may obscure variation at another",
+      "explanation_md": "A national average smooths over wide local differences. This is a classic scale of analysis problem and a common AP exam target.",
+      "topic_code": "1.6",
+      "skill_code": "5.A"
+    },
+    {
+      "id": "q03",
+      "question_number": 3,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "**Voter Turnout, Hypothetical 2024 Election**\n\n| Scale | Turnout |\n|---|---|\n| United States (national) | 64% |\n| Ohio (state) | 71% |\n| Cuyahoga County | 67% |\n| City of Cleveland | 49% |\n\nThe data above most strongly support which conclusion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "National turnout is the most accurate measure of civic engagement"
+        },
+        {
+          "letter": "B",
+          "text": "Turnout patterns at smaller scales may diverge significantly from larger-scale aggregates"
+        },
+        {
+          "letter": "C",
+          "text": "Urban voters consistently turn out at higher rates than rural voters"
+        },
+        {
+          "letter": "D",
+          "text": "State-level data is always higher than national-level data"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Smaller scales may diverge from larger-scale aggregates",
+      "explanation_md": "The state and national numbers look strong, but the city of Cleveland is much lower. The aggregated number hides the local pattern.",
+      "topic_code": "1.6",
+      "skill_code": "5.C"
+    },
+    {
+      "id": "q04",
+      "question_number": 4,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "The Mercator projection is widely used for navigation but is often criticized in geography classrooms because it:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cannot represent the entire globe on a flat surface"
+        },
+        {
+          "letter": "B",
+          "text": "Distorts the size of landmasses, making areas near the poles appear far larger than they actually are"
+        },
+        {
+          "letter": "C",
+          "text": "Fails to preserve compass direction, making it unsuitable for sailors"
+        },
+        {
+          "letter": "D",
+          "text": "Uses a polar perspective that disorients most readers"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Mercator distorts size near the poles",
+      "explanation_md": "Greenland appears nearly the size of Africa on a Mercator map; in reality, Africa is about 14 times larger. Mercator preserves direction (which is why it's good for navigation) but distorts area badly at high latitudes.",
+      "topic_code": "1.1",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q05",
+      "question_number": 5,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A geographer wants to compare deforestation rates across continents using a single map. Which projection would be most appropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mercator, because it preserves direction"
+        },
+        {
+          "letter": "B",
+          "text": "Robinson, because it offers a compromise between shape and area"
+        },
+        {
+          "letter": "C",
+          "text": "An equal-area projection such as Gall-Peters, because it preserves the relative size of landmasses"
+        },
+        {
+          "letter": "D",
+          "text": "A polar azimuthal projection, because it centers on a specific point"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Equal-area projection",
+      "explanation_md": "For comparing area (like deforestation), use an equal-area projection so that landmasses are shown in their true relative size. Robinson is a reasonable compromise but does not preserve area exactly.",
+      "topic_code": "1.1",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q06",
+      "question_number": 6,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A city planner uses satellite imagery to identify changes in vegetation cover over the past 20 years and then layers this data with property tax records and zoning maps in a single software environment. The combination of these tools is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remote sensing only"
+        },
+        {
+          "letter": "B",
+          "text": "Geographic Information Systems (GIS), incorporating remote sensing data"
+        },
+        {
+          "letter": "C",
+          "text": "Global Positioning System (GPS) tracking"
+        },
+        {
+          "letter": "D",
+          "text": "Cartographic generalization"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "GIS incorporating remote sensing",
+      "explanation_md": "GIS layers multiple types of spatial data (vegetation imagery, tax records, zoning) for combined analysis. Remote sensing is one input; GIS is the broader system that integrates them.",
+      "topic_code": "1.2",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q07",
+      "question_number": 7,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. This pattern is best explained by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Time-space convergence"
+        },
+        {
+          "letter": "B",
+          "text": "Distance decay alone"
+        },
+        {
+          "letter": "C",
+          "text": "The friction of distance and the resulting distance decay effect"
+        },
+        {
+          "letter": "D",
+          "text": "Cultural diffusion"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Friction of distance and resulting distance decay",
+      "explanation_md": "The friction of distance is the underlying cause; distance decay is the observed pattern. Both terms describe the same phenomenon at different levels of explanation, which is why C is more complete than B.",
+      "topic_code": "1.3",
+      "skill_code": "1.D"
+    },
+    {
+      "id": "q08",
+      "question_number": 8,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "\"The Bible Belt\" is most accurately described as which type of region?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A formal region with clearly defined political boundaries"
+        },
+        {
+          "letter": "B",
+          "text": "A functional region organized around a central node"
+        },
+        {
+          "letter": "C",
+          "text": "A perceptual (vernacular) region defined by shared cultural characteristics and informal recognition"
+        },
+        {
+          "letter": "D",
+          "text": "A microregion based on a single demographic variable"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Perceptual (vernacular) region",
+      "explanation_md": "The Bible Belt has no official boundary. It is defined by shared cultural perception, which makes it vernacular.",
+      "topic_code": "1.4",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q09",
+      "question_number": 9,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "The construction of greenhouses, irrigation systems, and climate-controlled buildings to grow tomatoes year-round in Iceland best illustrates the geographic concept of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Environmental determinism"
+        },
+        {
+          "letter": "B",
+          "text": "Possibilism, where humans use technology to overcome environmental limits"
+        },
+        {
+          "letter": "C",
+          "text": "Pure cultural ecology"
+        },
+        {
+          "letter": "D",
+          "text": "Sustainability for its own sake"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Possibilism",
+      "explanation_md": "Iceland's climate is hostile to tomato growing, but technology overcomes that limit. Humans work within environmental constraints rather than being determined by them.",
+      "topic_code": "1.5",
+      "skill_code": "1.B"
+    },
+    {
+      "id": "q10",
+      "question_number": 10,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "**Median Household Income, Greater Cleveland Area (hypothetical)**\n\n| Scale | Median Income |\n|---|---|\n| Cleveland Metropolitan Area | $78,000 |\n| Cuyahoga County | $62,000 |\n| City of Cleveland | $38,000 |\n| Hough neighborhood | $24,000 |\n\nThe pattern in the table illustrates which key concept?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aggregated data at larger scales can mask significant variation at smaller scales"
+        },
+        {
+          "letter": "B",
+          "text": "Metropolitan data is always less reliable than national data"
+        },
+        {
+          "letter": "C",
+          "text": "Income distribution is uniform across scales"
+        },
+        {
+          "letter": "D",
+          "text": "Median income increases as scale becomes more local"
+        }
+      ],
+      "correct_letters": [
+        "A"
+      ],
+      "answer": "A",
+      "answer_headline": "Aggregated data at larger scales can mask variation at smaller scales",
+      "explanation_md": "Metro median is $78K, but Hough is $24K. Same idea as Q2 and Q3, just framed with income data. Scale of analysis is heavily tested, so worth seeing repeatedly.",
+      "topic_code": "1.6",
+      "skill_code": "5.A"
+    },
+    {
+      "id": "q11",
+      "question_number": 11,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "Which of the following is the strongest example of a vernacular region?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The European Union"
+        },
+        {
+          "letter": "B",
+          "text": "The metropolitan delivery zone of a regional newspaper"
+        },
+        {
+          "letter": "C",
+          "text": "\"The Midwest\" in the United States"
+        },
+        {
+          "letter": "D",
+          "text": "The watershed of the Mississippi River"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "\"The Midwest\"",
+      "explanation_md": "\"The Midwest\" has no fixed legal boundary; people disagree on which states it includes. That informal, perception-based definition makes it vernacular. The EU is formal, the newspaper zone is functional, and the Mississippi watershed is formal/physical.",
+      "topic_code": "1.4",
+      "skill_code": "1.E"
+    },
+    {
+      "id": "q12",
+      "question_number": 12,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A small port city is located on a deep natural harbor and lies along major shipping lanes connecting Asia and Europe. The harbor is an example of *site*, while the position along shipping lanes is an example of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Absolute location"
+        },
+        {
+          "letter": "B",
+          "text": "Situation"
+        },
+        {
+          "letter": "C",
+          "text": "A vernacular region"
+        },
+        {
+          "letter": "D",
+          "text": "Distance decay"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Situation",
+      "explanation_md": "Site is the absolute physical characteristics of a place (the harbor itself). Situation is the place's position relative to other places (along the shipping lanes).",
+      "topic_code": "1.3",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q13",
+      "question_number": 13,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "Which type of thematic map would best display the percentage of households below the poverty line by U.S. county?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dot density map"
+        },
+        {
+          "letter": "B",
+          "text": "Choropleth map"
+        },
+        {
+          "letter": "C",
+          "text": "Isoline map"
+        },
+        {
+          "letter": "D",
+          "text": "Cartogram showing land area"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Choropleth map",
+      "explanation_md": "Choropleth maps shade enumeration units (like counties) by a value, usually a rate or percentage. They are the standard for \"percent by county\" data.",
+      "topic_code": "1.1",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q14",
+      "question_number": 14,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "A national policy designed to reduce unemployment may have very different effects in rural Appalachia compared to urban Boston. This observation most directly demonstrates that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Policies should only be designed at the local scale"
+        },
+        {
+          "letter": "B",
+          "text": "National-scale interventions can produce uneven outcomes when applied across regions with different local conditions"
+        },
+        {
+          "letter": "C",
+          "text": "Local conditions are irrelevant to national outcomes"
+        },
+        {
+          "letter": "D",
+          "text": "Federal governments cannot effectively address economic problems"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "National-scale interventions can produce uneven outcomes across regions",
+      "explanation_md": "Rural Appalachia and urban Boston have very different economic structures, so the same policy will produce different results. This is the scale-of-analysis idea applied to policy. Skill 5 (Scale Analysis) shows up on the FRQ, so practice this framing.",
+      "topic_code": "1.6",
+      "skill_code": "5.B"
+    },
+    {
+      "id": "q15",
+      "question_number": 15,
+      "unit": 1,
+      "type": "multiple-choice",
+      "question_text": "**Approximate Travel Time, New York City to London**\n\n| Year | Mode | Travel Time |\n|---|---|---|\n| 1850 | Sailing ship | ~14 days |\n| 1900 | Steamship | ~6 days |\n| 1950 | Propeller airliner | ~14 hours |\n| 2000 | Jet airliner | ~7 hours |\n| 2020 | Jet airliner | ~7 hours |\n\nThe pattern in the table best illustrates:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Distance decay"
+        },
+        {
+          "letter": "B",
+          "text": "Time-space convergence"
+        },
+        {
+          "letter": "C",
+          "text": "Increasing friction of distance"
+        },
+        {
+          "letter": "D",
+          "text": "Cultural divergence"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Time-space convergence",
+      "explanation_md": "Travel times between two fixed places shrink as transportation technology improves. Places effectively grow \"closer\" in time even though physical distance is unchanged.",
+      "topic_code": "1.3",
+      "skill_code": "2.A"
+    },
+    {
+      "id": "q16",
+      "question_number": 16,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "A country is currently experiencing a sharp drop in birth rates while death rates have already declined to low levels, producing slow population growth. This country is most likely in which stage of the demographic transition model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stage 1"
+        },
+        {
+          "letter": "B",
+          "text": "Stage 2"
+        },
+        {
+          "letter": "C",
+          "text": "Stage 3"
+        },
+        {
+          "letter": "D",
+          "text": "Stage 5"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Stage 3",
+      "explanation_md": "Stage 3 of the demographic transition: birth rates falling, death rates already low, growth slowing. Stage 5 (sub-replacement) would mean birth rates have fallen *below* death rates.",
+      "topic_code": "2.5",
+      "skill_code": "3.C"
+    },
+    {
+      "id": "q17",
+      "question_number": 17,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "Which of the following is the clearest example of a pronatalist policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mandatory family planning education in public schools"
+        },
+        {
+          "letter": "B",
+          "text": "Tax credits and extended paid parental leave for families with multiple children"
+        },
+        {
+          "letter": "C",
+          "text": "A national one-child limit"
+        },
+        {
+          "letter": "D",
+          "text": "Increased public funding for contraception access"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Tax credits and parental leave",
+      "explanation_md": "Pronatalist policies *encourage* births. Examples include cash bonuses, tax breaks, and parental leave. The other choices are antinatalist.",
+      "topic_code": "2.7",
+      "skill_code": "5.B"
+    },
+    {
+      "id": "q18",
+      "question_number": 18,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "Which combination is best described as a push-pull pair driving international migration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pull: civil war in origin country / Push: job opportunities in destination"
+        },
+        {
+          "letter": "B",
+          "text": "Push: civil war in origin country / Pull: job opportunities in destination"
+        },
+        {
+          "letter": "C",
+          "text": "Push: family reunification in destination / Pull: religious persecution in origin"
+        },
+        {
+          "letter": "D",
+          "text": "Pull: drought in origin country / Push: educational opportunities in destination"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Push: civil war / Pull: jobs",
+      "explanation_md": "Push factors drive people *out* of an origin (war, persecution, drought). Pull factors draw them *toward* a destination (jobs, safety, family). A is the choices reversed.",
+      "topic_code": "2.10",
+      "skill_code": "2.A"
+    },
+    {
+      "id": "q19",
+      "question_number": 19,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "**Demographic Indicators, Country M (hypothetical)**\n\n| Indicator | Value |\n|---|---|\n| Crude Birth Rate | 38 per 1,000 |\n| Crude Death Rate | 9 per 1,000 |\n| Population ages 0–14 | 43% |\n| Population ages 65+ | 3% |\n\nCountry M is most likely:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A high-income country in Stage 4 of the demographic transition"
+        },
+        {
+          "letter": "B",
+          "text": "A Sub-Saharan African country in Stage 2 with high natural increase"
+        },
+        {
+          "letter": "C",
+          "text": "A country experiencing sub-replacement fertility"
+        },
+        {
+          "letter": "D",
+          "text": "A country with a heavily aging population"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Sub-Saharan country in Stage 2 with high natural increase",
+      "explanation_md": "High CBR (38), low CDR (9), and a very young age structure (43% under 15) match Stage 2 demographics typical of many Sub-Saharan African countries today.",
+      "topic_code": "2.4",
+      "skill_code": "5.B"
+    },
+    {
+      "id": "q20",
+      "question_number": 20,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "A population pyramid shows a very wide base (large numbers of children ages 0–14), a steadily narrowing middle, and a small elderly population, with roughly symmetrical sides for males and females. This pyramid is most consistent with which type of country?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A high-income country in Stage 4 of the demographic transition"
+        },
+        {
+          "letter": "B",
+          "text": "A country in Stage 2 with high fertility and declining mortality"
+        },
+        {
+          "letter": "C",
+          "text": "A country experiencing significant male labor out-migration"
+        },
+        {
+          "letter": "D",
+          "text": "A country in Stage 5 with sub-replacement fertility"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Stage 2 with high fertility",
+      "explanation_md": "A wide base = lots of children = high fertility. A narrowing top = high mortality at older ages. Symmetrical sides rule out heavy male out-migration.",
+      "topic_code": "2.3",
+      "skill_code": "3.D"
+    },
+    {
+      "id": "q21",
+      "question_number": 21,
+      "unit": 2,
+      "type": "multiple-choice",
+      "question_text": "A family fleeing violence in Syria and crossing into Jordan to seek safety is best classified as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Voluntary economic migrants"
+        },
+        {
+          "letter": "B",
+          "text": "Refugees, a category of forced migration"
+        },
+        {
+          "letter": "C",
+          "text": "Internally displaced persons"
+        },
+        {
+          "letter": "D",
+          "text": "Step migrants"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Refugees (forced migration)",
+      "explanation_md": "Crossing an international border to flee violence makes them refugees. IDPs would still be inside Syria.",
+      "topic_code": "2.11",
+      "skill_code": "2.A"
+    },
+    {
+      "id": "q22",
+      "question_number": 22,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "Creolization is best defined as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The replacement of an Indigenous language by a dominant colonial language"
+        },
+        {
+          "letter": "B",
+          "text": "The blending of two or more languages into a stable new language that becomes the native tongue of a community"
+        },
+        {
+          "letter": "C",
+          "text": "The temporary mixing of languages by traders, with no native speakers"
+        },
+        {
+          "letter": "D",
+          "text": "The standardization of dialects within a single language"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Blending into a stable new language with native speakers",
+      "explanation_md": "Creoles arise when pidgins (temporary trade languages) become the native language of a community, often in colonial contact zones (Haitian Creole, Louisiana Creole, etc.).",
+      "topic_code": "3.5",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q23",
+      "question_number": 23,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "Día de los Muertos in Mexico combines pre-Columbian Indigenous beliefs about honoring the dead with Catholic observances tied to All Saints' Day and All Souls' Day. This blending of religious and cultural traditions is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cultural assimilation"
+        },
+        {
+          "letter": "B",
+          "text": "Cultural syncretism"
+        },
+        {
+          "letter": "C",
+          "text": "Relocation diffusion only"
+        },
+        {
+          "letter": "D",
+          "text": "Cultural extinction"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Cultural syncretism",
+      "explanation_md": "Syncretism is the blending of two or more cultural or religious traditions into a new combined form. Día de los Muertos is the textbook example.",
+      "topic_code": "3.8",
+      "skill_code": "2.B"
+    },
+    {
+      "id": "q24",
+      "question_number": 24,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "A neighborhood association paints murals on local buildings, installs benches and planters, and organizes a weekly farmers' market in a previously underused public square. This activity is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gentrification"
+        },
+        {
+          "letter": "B",
+          "text": "Placemaking"
+        },
+        {
+          "letter": "C",
+          "text": "Suburbanization"
+        },
+        {
+          "letter": "D",
+          "text": "Counter-urbanization"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Placemaking",
+      "explanation_md": "Placemaking is the deliberate effort by communities to give a public space identity, character, and meaning. Murals, benches, and markets are classic examples.",
+      "topic_code": "3.3",
+      "skill_code": "4.B"
+    },
+    {
+      "id": "q25",
+      "question_number": 25,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "Which of the following best distinguishes a universalizing religion from an ethnic religion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Universalizing religions are older than ethnic religions"
+        },
+        {
+          "letter": "B",
+          "text": "Universalizing religions actively seek converts globally, while ethnic religions are typically tied to a specific people or place"
+        },
+        {
+          "letter": "C",
+          "text": "Ethnic religions have more adherents than universalizing religions"
+        },
+        {
+          "letter": "D",
+          "text": "Universalizing religions never have sacred texts"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Universalizing seek converts globally; ethnic are tied to a specific people/place",
+      "explanation_md": "Universalizing: Christianity, Islam, Buddhism. Ethnic: Judaism, Hinduism, traditional/folk religions. The active pursuit of converts is the defining contrast.",
+      "topic_code": "3.7",
+      "skill_code": "2.D"
+    },
+    {
+      "id": "q26",
+      "question_number": 26,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "Which of the following is the best example of a culture trait?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The complete set of behaviors and beliefs of a society"
+        },
+        {
+          "letter": "B",
+          "text": "The use of chopsticks for eating"
+        },
+        {
+          "letter": "C",
+          "text": "A region defined by shared cultural characteristics"
+        },
+        {
+          "letter": "D",
+          "text": "The blending of two cultures over time"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "The use of chopsticks for eating",
+      "explanation_md": "A culture trait is a single attribute (a tool, a practice, a belief). The whole set of traits is \"culture.\" A region of shared traits is a culture region.",
+      "topic_code": "3.1",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q27",
+      "question_number": 27,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "English functions as a lingua franca in international business and aviation primarily because:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is the most spoken native language in the world"
+        },
+        {
+          "letter": "B",
+          "text": "Historical patterns of British colonization and U.S. economic and cultural influence have spread it widely as a second language"
+        },
+        {
+          "letter": "C",
+          "text": "It is the easiest language in the world to learn"
+        },
+        {
+          "letter": "D",
+          "text": "The United Nations declared it the official global language"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "British colonization and U.S. influence",
+      "explanation_md": "Lingua francas spread through historical processes of empire, trade, and economic dominance, not because they are easy or officially designated.",
+      "topic_code": "3.6",
+      "skill_code": "1.D"
+    },
+    {
+      "id": "q28",
+      "question_number": 28,
+      "unit": 3,
+      "type": "multiple-choice",
+      "question_text": "A visitor to a small town in Iowa observes a Lutheran church on Main Street, a grain elevator near the rail tracks, and a town square with a Civil War memorial. Together, these features are best described as a:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sequent occupance only"
+        },
+        {
+          "letter": "B",
+          "text": "Cultural landscape that reflects the layered history of the community"
+        },
+        {
+          "letter": "C",
+          "text": "Vernacular region"
+        },
+        {
+          "letter": "D",
+          "text": "Functional region"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Cultural landscape",
+      "explanation_md": "A cultural landscape is the visible imprint of human activity on the land. The church, grain elevator, and memorial together tell the story of who lived there and what they valued.",
+      "topic_code": "3.2",
+      "skill_code": "4.D"
+    },
+    {
+      "id": "q29",
+      "question_number": 29,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "Iceland is often cited as a relatively close example of a nation-state because:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It controls a large territory across multiple continents"
+        },
+        {
+          "letter": "B",
+          "text": "The boundaries of the state largely correspond with a population that shares a common cultural identity, language tradition, and history"
+        },
+        {
+          "letter": "C",
+          "text": "It has no immigrants at all"
+        },
+        {
+          "letter": "D",
+          "text": "It is part of a larger supranational federation"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Boundaries match a population sharing identity, language, history",
+      "explanation_md": "A nation-state ideally has a single nation (cultural group) within a single state (political unit). Iceland comes close because of its small, relatively homogeneous population.",
+      "topic_code": "4.1",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q30",
+      "question_number": 30,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "A shatterbelt region is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A boundary marked by physical features such as mountains or rivers"
+        },
+        {
+          "letter": "B",
+          "text": "A region caught between the political and cultural pressures of two or more competing external powers, often experiencing fragmentation and conflict"
+        },
+        {
+          "letter": "C",
+          "text": "An area where two cultures blend peacefully over time"
+        },
+        {
+          "letter": "D",
+          "text": "A self-governing region within a federal state"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Region caught between competing external powers",
+      "explanation_md": "Shatterbelts (the Balkans, parts of Eastern Europe historically, the Caucasus) experience fragmentation and conflict because of pressure from multiple outside powers.",
+      "topic_code": "4.3",
+      "skill_code": "5.B"
+    },
+    {
+      "id": "q31",
+      "question_number": 31,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "Indonesia, made up of thousands of islands spread across a vast area of ocean, is the clearest example of which type of state shape?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compact"
+        },
+        {
+          "letter": "B",
+          "text": "Elongated"
+        },
+        {
+          "letter": "C",
+          "text": "Fragmented"
+        },
+        {
+          "letter": "D",
+          "text": "Perforated"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Fragmented",
+      "explanation_md": "Fragmented states are split into pieces, usually islands or separated land areas. Indonesia and the Philippines are textbook cases.",
+      "topic_code": "4.5",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q32",
+      "question_number": 32,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "\"Packing\" in the context of gerrymandering refers to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Drawing district boundaries to spread a target group thinly across many districts so that they cannot win any"
+        },
+        {
+          "letter": "B",
+          "text": "Concentrating a target group of voters into a small number of districts to limit their overall influence in the legislature"
+        },
+        {
+          "letter": "C",
+          "text": "Combining several small districts into a single larger one for administrative efficiency"
+        },
+        {
+          "letter": "D",
+          "text": "Aligning district boundaries with existing county lines"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Concentrating voters into a few districts",
+      "explanation_md": "Packing concentrates the target group so they \"waste\" votes by winning a few districts overwhelmingly. Cracking (option A) is the opposite, splitting them across many districts to dilute their power.",
+      "topic_code": "4.6",
+      "skill_code": "2.C"
+    },
+    {
+      "id": "q33",
+      "question_number": 33,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "Which of the following best describes a federal state?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Power is concentrated in a single central government with limited regional authority"
+        },
+        {
+          "letter": "B",
+          "text": "Power is constitutionally divided between a central government and subnational governments such as states or provinces"
+        },
+        {
+          "letter": "C",
+          "text": "Power is held entirely by local governments with no national oversight"
+        },
+        {
+          "letter": "D",
+          "text": "Power rotates between competing political parties on a fixed schedule"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Power constitutionally divided between central and subnational governments",
+      "explanation_md": "Federal states: U.S., Germany, Brazil, India, Canada, Australia. Unitary states: France, Japan, China.",
+      "topic_code": "4.7",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q34",
+      "question_number": 34,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "The boundary between North and South Korea, drawn after the Korean War with little regard for preexisting cultural or physical features, is best classified as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An antecedent boundary"
+        },
+        {
+          "letter": "B",
+          "text": "A subsequent boundary"
+        },
+        {
+          "letter": "C",
+          "text": "A superimposed boundary"
+        },
+        {
+          "letter": "D",
+          "text": "A relict boundary"
+        }
+      ],
+      "correct_letters": [
+        "C"
+      ],
+      "answer": "C",
+      "answer_headline": "Superimposed boundary",
+      "explanation_md": "Superimposed boundaries are drawn by an outside power (often after war) without regard to existing cultural or physical patterns. Antecedent: drawn before settlement. Subsequent: drawn after, accommodating culture. Relict: no longer functioning.",
+      "topic_code": "4.4",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q35",
+      "question_number": 35,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "The Scottish Parliament's powers over education, health, and certain taxes within the United Kingdom are an example of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Supranationalism"
+        },
+        {
+          "letter": "B",
+          "text": "Devolution"
+        },
+        {
+          "letter": "C",
+          "text": "Balkanization"
+        },
+        {
+          "letter": "D",
+          "text": "Irredentism"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Devolution",
+      "explanation_md": "Devolution is the transfer of powers from a central government to subnational regions while keeping the country intact. Scotland, Wales, and Northern Ireland are the standard UK examples.",
+      "topic_code": "4.8",
+      "skill_code": "1.D"
+    },
+    {
+      "id": "q36",
+      "question_number": 36,
+      "unit": 4,
+      "type": "multiple-choice",
+      "question_text": "A country joining the European Union typically agrees to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Surrender complete national sovereignty to a central EU government"
+        },
+        {
+          "letter": "B",
+          "text": "Cede certain economic and regulatory powers to a supranational organization in exchange for benefits like a common market and shared institutions"
+        },
+        {
+          "letter": "C",
+          "text": "Adopt an entirely new national language and legal system"
+        },
+        {
+          "letter": "D",
+          "text": "Dissolve its national government in favor of EU rule"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Cede certain powers to a supranational organization in exchange for benefits",
+      "explanation_md": "Supranationalism involves *some* transfer of authority, not total surrender. Member states keep their governments and most sovereignty.",
+      "topic_code": "4.9",
+      "skill_code": "1.B"
+    },
+    {
+      "id": "q37",
+      "question_number": 37,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "**Hypothetical Growth Curves**\n\n| Variable | Growth Pattern |\n|---|---|\n| Population | Doubles every 25 years (geometric) |\n| Food production | Increases by a fixed amount every 25 years (arithmetic) |\n\nThe relationship shown above was central to Thomas Malthus's prediction that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Technological innovation would always allow food supply to outpace population"
+        },
+        {
+          "letter": "B",
+          "text": "Population would inevitably outstrip food supply, leading to crisis"
+        },
+        {
+          "letter": "C",
+          "text": "Urbanization would solve agricultural shortages"
+        },
+        {
+          "letter": "D",
+          "text": "Birth rates would naturally fall as societies industrialized"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Population would outstrip food supply",
+      "explanation_md": "Malthus's core claim was that geometric population growth would always outrun arithmetic food production growth, leading to famine, war, or disease as natural checks.",
+      "topic_code": "5.6",
+      "skill_code": "1.E"
+    },
+    {
+      "id": "q38",
+      "question_number": 38,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "In contrast to Malthus, Ester Boserup argued that:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Population pressure encourages agricultural innovation and intensification, allowing food production to expand"
+        },
+        {
+          "letter": "B",
+          "text": "Food production grows geometrically while population grows arithmetically"
+        },
+        {
+          "letter": "C",
+          "text": "Famine is the only natural check on population"
+        },
+        {
+          "letter": "D",
+          "text": "Industrialization always reduces agricultural output"
+        }
+      ],
+      "correct_letters": [
+        "A"
+      ],
+      "answer": "A",
+      "answer_headline": "Population pressure drives innovation and intensification",
+      "explanation_md": "Boserup essentially flipped Malthus: when population grows, people invent new techniques (irrigation, multi-cropping, fertilizers) to expand food output. This is why Malthus's prediction has not held in many places.",
+      "topic_code": "5.4",
+      "skill_code": "1.E"
+    },
+    {
+      "id": "q39",
+      "question_number": 39,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "**Von Thünen's Model (description)**\nImagine an isolated city surrounded by a flat, uniform plain with one market and uniform transportation costs in all directions. The model predicts a series of concentric rings of agricultural land use moving outward from the city.\n\nAccording to Von Thünen's model, which activity will be located closest to the central market?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Extensive grain farming"
+        },
+        {
+          "letter": "B",
+          "text": "Ranching"
+        },
+        {
+          "letter": "C",
+          "text": "Forestry (in the original model, due to weight and transport cost)"
+        },
+        {
+          "letter": "D",
+          "text": "Intensive horticulture and dairying (perishable, high-value goods)"
+        }
+      ],
+      "correct_letters": [
+        "D"
+      ],
+      "answer": "D",
+      "answer_headline": "Intensive horticulture and dairying",
+      "explanation_md": "Perishable, high-value goods locate close to market because they spoil and transport costs matter most. The classic ring order in Von Thünen: intensive farming/dairy → forestry → grains → ranching at the periphery.",
+      "topic_code": "5.8",
+      "skill_code": "4.E"
+    },
+    {
+      "id": "q40",
+      "question_number": 40,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "The Green Revolution of the mid-20th century is most directly associated with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Organic farming and traditional seed varieties"
+        },
+        {
+          "letter": "B",
+          "text": "The introduction of high-yielding seed varieties, synthetic fertilizers, pesticides, and irrigation technologies, particularly in parts of Asia and Latin America"
+        },
+        {
+          "letter": "C",
+          "text": "Reducing global meat consumption"
+        },
+        {
+          "letter": "D",
+          "text": "Replacing commercial farms with subsistence agriculture"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "High-yielding seeds, fertilizers, pesticides, irrigation",
+      "explanation_md": "Norman Borlaug's wheat varieties and the introduction of IR8 rice are the iconic examples. Asia and Latin America saw the largest gains; Sub-Saharan Africa less so.",
+      "topic_code": "5.5",
+      "skill_code": "1.D"
+    },
+    {
+      "id": "q41",
+      "question_number": 41,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "**Country X, Top 5 Exports by Value (hypothetical)**\n\n| Export | % of Total Export Value |\n|---|---|\n| Cocoa | 38% |\n| Crude petroleum | 12% |\n| Rubber | 9% |\n| Gold | 7% |\n| Cashews | 5% |\n\nCountry X's export profile most directly illustrates:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A diversified post-industrial economy"
+        },
+        {
+          "letter": "B",
+          "text": "Commodity dependency, where a national economy is heavily reliant on a small number of primary-sector exports"
+        },
+        {
+          "letter": "C",
+          "text": "High levels of vertical integration in manufacturing"
+        },
+        {
+          "letter": "D",
+          "text": "Strong service-sector specialization"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Commodity dependency",
+      "explanation_md": "When a country's economy leans heavily on a small number of primary-sector exports (cocoa, oil, minerals), it is vulnerable to global price swings. This is a common pattern in former colonial economies.",
+      "topic_code": "5.9",
+      "skill_code": "1.B"
+    },
+    {
+      "id": "q42",
+      "question_number": 42,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "**Two Farms (hypothetical)**\n\n| Feature | Farm A | Farm B |\n|---|---|---|\n| Size | 12,000 acres | 80 acres |\n| Workers | 4 | 12 |\n| Output per acre | Low | High |\n| Primary product | Wheat | Mixed vegetables |\n\nBased on the table, Farm A is best classified as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intensive subsistence agriculture"
+        },
+        {
+          "letter": "B",
+          "text": "Extensive commercial agriculture"
+        },
+        {
+          "letter": "C",
+          "text": "Plantation agriculture"
+        },
+        {
+          "letter": "D",
+          "text": "Mediterranean polyculture"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Extensive commercial agriculture",
+      "explanation_md": "Lots of land, few workers, low output per acre, single grain crop = extensive (large-scale grain or ranching). Intensive farms are the opposite: small land, many workers, high yields per acre.",
+      "topic_code": "5.1",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q43",
+      "question_number": 43,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "Coffee is most commonly grown in:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cool temperate latitudes with sandy soils"
+        },
+        {
+          "letter": "B",
+          "text": "Tropical and subtropical highlands with relatively consistent rainfall"
+        },
+        {
+          "letter": "C",
+          "text": "Arid regions dependent on heavy irrigation"
+        },
+        {
+          "letter": "D",
+          "text": "Boreal forests"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Tropical and subtropical highlands",
+      "explanation_md": "Coffee needs warm temperatures, consistent rainfall, and elevation. The \"coffee belt\" runs through Latin America, equatorial Africa, and parts of Southeast Asia.",
+      "topic_code": "5.1",
+      "skill_code": "4.A"
+    },
+    {
+      "id": "q44",
+      "question_number": 44,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "A geographer wants to show the share of total agricultural land devoted to corn production by U.S. county. Which type of map would be most appropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Choropleth map shading each county by percentage of land in corn"
+        },
+        {
+          "letter": "B",
+          "text": "Isoline map of soil pH"
+        },
+        {
+          "letter": "C",
+          "text": "Topographic map"
+        },
+        {
+          "letter": "D",
+          "text": "Cartogram of national rainfall"
+        }
+      ],
+      "correct_letters": [
+        "A"
+      ],
+      "answer": "A",
+      "answer_headline": "Choropleth map by county",
+      "explanation_md": "Same logic as Q13. A rate or percentage by enumeration unit (county) calls for a choropleth.",
+      "topic_code": "5.1",
+      "skill_code": "4.F"
+    },
+    {
+      "id": "q45",
+      "question_number": 45,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "The trend toward year-round availability of fresh strawberries in U.S. supermarkets, regardless of season, most directly reflects:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The rise of subsistence farming in North America"
+        },
+        {
+          "letter": "B",
+          "text": "The globalization of agriculture, with production shifting between hemispheres and goods shipped via fast, refrigerated supply chains"
+        },
+        {
+          "letter": "C",
+          "text": "The decline of commercial agriculture"
+        },
+        {
+          "letter": "D",
+          "text": "The end of comparative advantage in agriculture"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Globalization of agriculture",
+      "explanation_md": "Strawberries from California in summer, Mexico in winter, Chile in our spring, all in the same supermarket. Refrigerated supply chains and air freight make it possible.",
+      "topic_code": "5.10",
+      "skill_code": "5.B"
+    },
+    {
+      "id": "q46",
+      "question_number": 46,
+      "unit": 5,
+      "type": "multiple-choice",
+      "question_text": "The Second Agricultural Revolution is most closely associated with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The first domestication of plants and animals about 10,000 years ago"
+        },
+        {
+          "letter": "B",
+          "text": "Mechanization, improved crop rotation, and selective breeding tied to industrialization in 18th- and 19th-century Europe"
+        },
+        {
+          "letter": "C",
+          "text": "The introduction of high-yielding rice varieties in 20th-century Asia"
+        },
+        {
+          "letter": "D",
+          "text": "The shift to organic and local-food movements in the 21st century"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "18th–19th century mechanization, crop rotation, selective breeding",
+      "explanation_md": "First Agricultural Revolution: ~10,000 years ago, domestication. Second: industrial-era farming improvements. Third (Green Revolution): mid-20th century high-yield seeds.",
+      "topic_code": "5.3",
+      "skill_code": "1.D"
+    },
+    {
+      "id": "q47",
+      "question_number": 47,
+      "unit": 6,
+      "type": "multiple-choice",
+      "question_text": "According to Christaller's central place theory, the \"range\" of a good refers to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The minimum number of customers needed to make a business viable"
+        },
+        {
+          "letter": "B",
+          "text": "The maximum distance consumers are willing to travel to obtain that good or service"
+        },
+        {
+          "letter": "C",
+          "text": "The total population of a settlement"
+        },
+        {
+          "letter": "D",
+          "text": "The hexagonal shape of market areas"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Maximum distance consumers will travel",
+      "explanation_md": "Range = how far people will travel for the good. Threshold = minimum customer base needed to support it. Higher-order goods (luxury cars, specialty hospitals) have larger ranges and thresholds.",
+      "topic_code": "6.4",
+      "skill_code": "2.A"
+    },
+    {
+      "id": "q48",
+      "question_number": 48,
+      "unit": 6,
+      "type": "multiple-choice",
+      "question_text": "In the original concentric zone model, land values typically:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Are highest in the outermost suburban ring"
+        },
+        {
+          "letter": "B",
+          "text": "Are highest in or near the central business district and decline outward, with some local variation"
+        },
+        {
+          "letter": "C",
+          "text": "Are uniform across all zones"
+        },
+        {
+          "letter": "D",
+          "text": "Increase steadily from the city center to the urban edge"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Highest near the CBD, declining outward",
+      "explanation_md": "The bid-rent curve: businesses outbid one another for central, high-accessibility land. Land values fall with distance from the CBD, with secondary peaks at suburban nodes.",
+      "topic_code": "6.5",
+      "skill_code": "2.A"
+    },
+    {
+      "id": "q49",
+      "question_number": 49,
+      "unit": 6,
+      "type": "multiple-choice",
+      "question_text": "**Country Y, Population of Five Largest Cities (hypothetical, in millions)**\n\n| Rank | City | Population |\n|---|---|---|\n| 1 | Capital | 12.0 |\n| 2 | City B | 1.5 |\n| 3 | City C | 1.1 |\n| 4 | City D | 0.9 |\n| 5 | City E | 0.8 |\n\nThis urban hierarchy most clearly illustrates:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The rank-size rule"
+        },
+        {
+          "letter": "B",
+          "text": "A primate city pattern"
+        },
+        {
+          "letter": "C",
+          "text": "A balanced gravity-model distribution"
+        },
+        {
+          "letter": "D",
+          "text": "A central place hierarchy with full nesting"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Primate city pattern",
+      "explanation_md": "The largest city is more than twice the size of the second largest (12.0 vs. 1.5, an 8x ratio). That dominance defines a primate city. Rank-size rule would put City B around 6 million, City C around 4 million, etc.",
+      "topic_code": "6.4",
+      "skill_code": "1.C"
+    },
+    {
+      "id": "q50",
+      "question_number": 50,
+      "unit": 6,
+      "type": "multiple-choice",
+      "question_text": "The Latin American (Griffin-Ford) city model typically features:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A single concentric ring pattern around a CBD with no other variation"
+        },
+        {
+          "letter": "B",
+          "text": "A commercial spine extending from the CBD into a wealthy elite residential sector, surrounded by zones of decreasing socioeconomic status, with disamenity zones at the periphery"
+        },
+        {
+          "letter": "C",
+          "text": "Multiple equally weighted nuclei with no dominant center"
+        },
+        {
+          "letter": "D",
+          "text": "A purely sectoral pattern with no CBD at all"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Commercial spine and elite sector with disamenity zones at the periphery",
+      "explanation_md": "Griffin-Ford features a wealthy spine running outward from the CBD, with poorer zones farther out and disamenity zones (informal settlements, often called *favelas* or *barrios*) on the edge. Note this is the inverse of the U.S. concentric zone pattern in many ways.",
+      "topic_code": "6.5",
+      "skill_code": "1.E"
+    },
+    {
+      "id": "q51",
+      "question_number": 51,
+      "unit": 6,
+      "type": "multiple-choice",
+      "question_text": "Installing solar panel arrays on the rooftops of municipal buildings in a city is best described as a strategy for:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suburbanization"
+        },
+        {
+          "letter": "B",
+          "text": "Urban sustainability and reducing the urban environmental footprint"
+        },
+        {
+          "letter": "C",
+          "text": "Counter-urbanization"
+        },
+        {
+          "letter": "D",
+          "text": "Gentrification"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Urban sustainability",
+      "explanation_md": "Solar panels reduce a city's carbon footprint and reliance on fossil-fuel grids. This is a textbook urban sustainability example.",
+      "topic_code": "6.11",
+      "skill_code": "1.E"
+    },
+    {
+      "id": "q52",
+      "question_number": 52,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "**Components of the Human Development Index (HDI)**\n\n| Dimension | Indicator |\n|---|---|\n| Long and healthy life | Life expectancy at birth |\n| Knowledge | Mean years of schooling and expected years of schooling |\n| Standard of living | Gross national income (GNI) per capita |\n\nWhich conclusion is best supported by the table?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HDI measures only economic output"
+        },
+        {
+          "letter": "B",
+          "text": "HDI combines health, education, and income indicators into a single composite measure of development"
+        },
+        {
+          "letter": "C",
+          "text": "HDI relies entirely on GDP per capita"
+        },
+        {
+          "letter": "D",
+          "text": "HDI measures political freedom"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "HDI combines health, education, and income",
+      "explanation_md": "The three HDI dimensions: long and healthy life (life expectancy), knowledge (schooling), and standard of living (GNI per capita). It is broader than GDP alone.",
+      "topic_code": "7.3",
+      "skill_code": "3.A"
+    },
+    {
+      "id": "q53",
+      "question_number": 53,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "**Selected Indicators (hypothetical, two countries)**\n\n| Indicator | Country P | Country Q |\n|---|---|---|\n| Maternal mortality ratio | 6 per 100,000 | 410 per 100,000 |\n| Adolescent birth rate | 8 per 1,000 | 95 per 1,000 |\n| Seats in parliament held by women | 42% | 11% |\n| Female labor force participation | 67% | 22% |\n\nA higher Gender Inequality Index (GII) score indicates greater inequality. Based on the table, which statement is best supported?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Country P likely has a higher GII than Country Q"
+        },
+        {
+          "letter": "B",
+          "text": "Country Q likely has a higher GII, indicating greater gender inequality"
+        },
+        {
+          "letter": "C",
+          "text": "GII cannot be inferred from these indicators"
+        },
+        {
+          "letter": "D",
+          "text": "Both countries likely have identical GII values"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Country Q likely has a higher GII",
+      "explanation_md": "Country Q's worse maternal mortality, higher adolescent birth rate, lower female political representation, and lower female labor force participation all push GII upward. Higher GII = more inequality.",
+      "topic_code": "7.3",
+      "skill_code": "3.C"
+    },
+    {
+      "id": "q54",
+      "question_number": 54,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "According to Rostow's stages of economic growth, the \"take-off\" stage is characterized by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subsistence agriculture and limited technology"
+        },
+        {
+          "letter": "B",
+          "text": "Rapid growth in a few leading industrial sectors, expansion of manufacturing, and rising investment"
+        },
+        {
+          "letter": "C",
+          "text": "Mass consumption of consumer goods"
+        },
+        {
+          "letter": "D",
+          "text": "Service-sector dominance and post-industrial structures"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Rapid growth in leading sectors, manufacturing, rising investment",
+      "explanation_md": "Rostow's five stages: traditional society → preconditions for take-off → take-off → drive to maturity → age of mass consumption. Take-off is the inflection point where industrialization accelerates.",
+      "topic_code": "7.4",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q55",
+      "question_number": 55,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "According to Wallerstein's world-systems theory, semi-peripheral countries:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Provide raw materials and cheap labor to core countries only"
+        },
+        {
+          "letter": "B",
+          "text": "Occupy an intermediate position, exhibiting some characteristics of both core and periphery"
+        },
+        {
+          "letter": "C",
+          "text": "Sit entirely outside the global capitalist system"
+        },
+        {
+          "letter": "D",
+          "text": "Are defined exclusively by their location in the Global North"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Intermediate position with traits of both",
+      "explanation_md": "Wallerstein: core (wealthy industrial states), periphery (raw-materials economies), semi-periphery (Mexico, Brazil, China historically). Semi-periphery acts as a buffer and exhibits mixed characteristics.",
+      "topic_code": "7.5",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q56",
+      "question_number": 56,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "Alfred Weber's least-cost theory of industrial location suggests that firms choose locations based primarily on minimizing which combination of factors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wages, taxes, and rent only"
+        },
+        {
+          "letter": "B",
+          "text": "Transportation costs, labor costs, and agglomeration effects"
+        },
+        {
+          "letter": "C",
+          "text": "Marketing, advertising, and distribution"
+        },
+        {
+          "letter": "D",
+          "text": "Land, water, and air pollution mitigation"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Transportation, labor, agglomeration",
+      "explanation_md": "Weber's three factors. Transportation cost depends on weight-loss vs. weight-gain inputs. Labor cost can pull firms away from the transport-optimal site. Agglomeration is the benefit of clustering with similar firms.",
+      "topic_code": "7.6",
+      "skill_code": "1.A"
+    },
+    {
+      "id": "q57",
+      "question_number": 57,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "**Employment by Sector, Country Z (hypothetical)**\n\n| Sector | 1960 | 2020 |\n|---|---|---|\n| Primary (agriculture, mining) | 38% | 4% |\n| Secondary (manufacturing) | 41% | 17% |\n| Tertiary (services) | 18% | 63% |\n| Quaternary (information) | 3% | 16% |\n\nThe shift shown in the table is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deindustrialization with a transition toward a post-industrial economy"
+        },
+        {
+          "letter": "B",
+          "text": "The Second Agricultural Revolution"
+        },
+        {
+          "letter": "C",
+          "text": "Re-agrarianization"
+        },
+        {
+          "letter": "D",
+          "text": "Demographic transition"
+        }
+      ],
+      "correct_letters": [
+        "A"
+      ],
+      "answer": "A",
+      "answer_headline": "Deindustrialization and post-industrial transition",
+      "explanation_md": "The shift from primary/secondary employment to tertiary/quaternary is the classic post-industrial pattern. Same trajectory the U.S., U.K., and most Western European economies have followed.",
+      "topic_code": "7.7",
+      "skill_code": "5.D"
+    },
+    {
+      "id": "q58",
+      "question_number": 58,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "A debt-for-nature swap is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A loan agreement requiring resource extraction"
+        },
+        {
+          "letter": "B",
+          "text": "An arrangement where part of a country's foreign debt is forgiven in exchange for commitments to environmental conservation"
+        },
+        {
+          "letter": "C",
+          "text": "A type of foreign direct investment in heavy industry"
+        },
+        {
+          "letter": "D",
+          "text": "A trade tariff on natural resources"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Debt forgiven in exchange for conservation commitments",
+      "explanation_md": "Debt-for-nature swaps trade financial relief for environmental protection (rainforest preservation, marine reserves). Used in Costa Rica, Bolivia, Ecuador, and others.",
+      "topic_code": "7.8",
+      "skill_code": "2.D"
+    },
+    {
+      "id": "q59",
+      "question_number": 59,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "A country with a small group of very wealthy regions clustered around two coastal cities and large interior areas with very low income levels best illustrates:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uniform development across the state"
+        },
+        {
+          "letter": "B",
+          "text": "Spatial inequality and uneven development within a state"
+        },
+        {
+          "letter": "C",
+          "text": "The end of core-periphery dynamics"
+        },
+        {
+          "letter": "D",
+          "text": "A primate city distribution only"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Spatial inequality and uneven development",
+      "explanation_md": "The classic core-periphery pattern within a single country. Coastal China, southeast Brazil, and northern Italy all show this internal unevenness.",
+      "topic_code": "7.1",
+      "skill_code": "3.B"
+    },
+    {
+      "id": "q60",
+      "question_number": 60,
+      "unit": 7,
+      "type": "multiple-choice",
+      "question_text": "Two countries trade because Country A can produce wheat at lower opportunity cost than Country B, while Country B can produce textiles at lower opportunity cost than Country A. This pattern is best explained by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Absolute advantage"
+        },
+        {
+          "letter": "B",
+          "text": "Comparative advantage"
+        },
+        {
+          "letter": "C",
+          "text": "Mercantilism"
+        },
+        {
+          "letter": "D",
+          "text": "Autarky"
+        }
+      ],
+      "correct_letters": [
+        "B"
+      ],
+      "answer": "B",
+      "answer_headline": "Comparative advantage",
+      "explanation_md": "David Ricardo's principle: countries gain from trade by specializing in what they produce at lower opportunity cost, even if another country can produce everything more cheaply in absolute terms.",
+      "topic_code": "7.2",
+      "skill_code": "1.B"
+    }
+  ],
+  "total": 60,
+  "units": {
+    "1": {
+      "label": "Thinking Geographically",
+      "short": "Unit 1"
+    },
+    "2": {
+      "label": "Population & Migration",
+      "short": "Unit 2"
+    },
+    "3": {
+      "label": "Cultural Patterns & Processes",
+      "short": "Unit 3"
+    },
+    "4": {
+      "label": "Political Patterns & Processes",
+      "short": "Unit 4"
+    },
+    "5": {
+      "label": "Agriculture & Rural Land Use",
+      "short": "Unit 5"
+    },
+    "6": {
+      "label": "Cities & Urban Land Use",
+      "short": "Unit 6"
+    },
+    "7": {
+      "label": "Industrial & Economic Development",
+      "short": "Unit 7"
+    }
+  }
+}

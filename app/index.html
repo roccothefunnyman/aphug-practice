@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP Human Geography Practice</title>
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-text">AP Human Geography Practice</div>
+    </div>
+
+    <div class="top-actions">
+      <span id="voice-only-badge" class="voice-badge" hidden title="Voice-only mode is active. Click to turn off.">VOICE</span>
+      <button id="voice-settings-btn" class="ghost-btn" type="button" title="Voice settings (read aloud and spoken answers)">Voice</button>
+      <button id="new-session-btn" class="ghost-btn ghost-btn-accent" type="button" title="Pick which questions to drill in a new session">New session</button>
+      <button id="reset-stats-btn" class="ghost-btn" type="button" title="Clear answered/wrong history for all questions">Reset progress</button>
+      <button id="theme-toggle" class="ghost-btn" type="button" title="Toggle light or dark mode">Light mode</button>
+    </div>
+  </header>
+
+  <section class="progress-block">
+    <div class="progress-row progress-row-overall">
+      <div class="progress-label">
+        <span class="progress-name">Overall</span>
+        <span class="progress-counts">
+          <span id="overall-answered">0</span> / <span id="overall-total">0</span>
+          <span class="progress-detail">
+            <span class="dot dot-good"></span><span id="overall-correct">0</span> correct
+            <span class="dot dot-bad"></span><span id="overall-wrong">0</span> wrong
+          </span>
+        </span>
+      </div>
+      <div class="progress-bar">
+        <div class="seg seg-correct" id="overall-fill-correct"></div>
+        <div class="seg seg-wrong" id="overall-fill-wrong"></div>
+      </div>
+    </div>
+
+    <div class="section-grid" id="section-grid"></div>
+  </section>
+
+  <main class="stage">
+    <article id="slide" class="slide" aria-live="polite">
+      <div class="slide-loading">Loading questions...</div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <button id="back-btn" class="btn btn-tertiary" hidden>&larr; Back</button>
+    <button id="clear-btn" class="btn btn-tertiary" hidden>Clear</button>
+    <button id="copy-btn" class="btn btn-tertiary" hidden>Copy Question</button>
+    <button id="reveal-btn" class="btn btn-primary" hidden>Reveal Answer</button>
+    <button id="next-btn" class="btn btn-secondary" hidden>Next Question</button>
+    <button id="restart-btn" class="btn btn-tertiary" hidden>Start New Session</button>
+    <div class="footer-meta">
+      <span class="kbd-hint">Press <kbd>Space</kbd> to reveal, <kbd>&rarr;</kbd> for next, <kbd>&larr;</kbd> for back, <kbd>V</kbd> for voice answer</span>
+    </div>
+  </footer>
+</div>
+
+<div id="picker-modal" class="picker-modal" hidden>
+  <div class="picker-backdrop" data-picker-close></div>
+  <section id="picker" class="picker" role="dialog" aria-modal="true" aria-labelledby="picker-title">
+    <div class="picker-header">
+      <div>
+        <h2 id="picker-title" class="picker-title">New session</h2>
+        <div class="picker-sub">Pick which questions to include, then start.</div>
+      </div>
+      <div class="picker-count">
+        <strong id="picker-count">0</strong> selected of <span id="picker-bank-total">0</span>
+      </div>
+    </div>
+
+    <div class="picker-presets" id="picker-presets">
+      <span class="picker-presets-label">Quick picks:</span>
+      <button class="chip-btn" data-preset="all" type="button">All</button>
+      <button class="chip-btn" data-preset="none" type="button">None</button>
+      <button class="chip-btn" data-preset="wrong" type="button">Wrong only</button>
+      <button class="chip-btn" data-preset="unanswered" type="button">Unanswered</button>
+      <button class="chip-btn" data-preset="correct" type="button">Correct only</button>
+      <button class="chip-btn" data-preset="unit-1" type="button">Unit 1</button>
+      <button class="chip-btn" data-preset="unit-2" type="button">Unit 2</button>
+      <button class="chip-btn" data-preset="unit-3" type="button">Unit 3</button>
+      <button class="chip-btn" data-preset="unit-4" type="button">Unit 4</button>
+      <button class="chip-btn" data-preset="unit-5" type="button">Unit 5</button>
+      <button class="chip-btn" data-preset="unit-6" type="button">Unit 6</button>
+      <button class="chip-btn" data-preset="unit-7" type="button">Unit 7</button>
+    </div>
+
+    <div id="picker-body" class="picker-body"></div>
+
+    <div class="picker-footer">
+      <button id="picker-cancel" class="btn btn-tertiary" type="button" data-picker-close>Cancel</button>
+      <button id="picker-start" class="btn btn-primary" type="button">Start session</button>
+    </div>
+  </section>
+</div>
+
+<div id="voice-modal" class="voice-modal" hidden>
+  <div class="voice-backdrop" data-voice-close></div>
+  <div class="voice-dialog" role="dialog" aria-modal="true" aria-labelledby="voice-title">
+    <div class="voice-header">
+      <h2 id="voice-title" class="voice-title">Voice settings</h2>
+      <button class="ghost-btn" type="button" data-voice-close>Close</button>
+    </div>
+    <div class="voice-body">
+      <div class="voice-row">
+        <label class="voice-label" for="voice-select">Read-aloud voice</label>
+        <select id="voice-select" class="voice-select"></select>
+      </div>
+      <div class="voice-row">
+        <label class="voice-label" for="voice-rate">Read rate <span id="voice-rate-val">1.0&times;</span></label>
+        <input id="voice-rate" type="range" min="0.7" max="1.5" step="0.05" value="1.0">
+      </div>
+      <div class="voice-row voice-row-toggle">
+        <label class="voice-label" for="voice-only-toggle">Voice-only mode</label>
+        <label class="voice-switch">
+          <input id="voice-only-toggle" type="checkbox">
+          <span class="voice-switch-slider"></span>
+        </label>
+      </div>
+      <p class="voice-hint">Voice-only mode reads each new question aloud, then auto-listens for your spoken answer (say "A", "B", "C", or "D"). After reveal, it auto-advances.</p>
+      <div class="voice-row">
+        <button id="voice-test-btn" class="btn btn-secondary" type="button">Test read-aloud</button>
+      </div>
+      <p id="voice-support-note" class="voice-hint voice-warn" hidden></p>
+    </div>
+  </div>
+</div>
+
+<div id="listening-overlay" class="listening-overlay" hidden aria-live="polite">
+  <div class="listening-pulse"></div>
+  <div class="listening-text">
+    <div class="listening-label">Listening...</div>
+    <div id="listening-transcript" class="listening-transcript"></div>
+  </div>
+  <button id="listening-cancel" class="ghost-btn" type="button">Cancel</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+<script src="voice.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
