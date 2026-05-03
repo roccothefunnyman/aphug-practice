@@ -203,7 +203,7 @@
       "question_number": 7,
       "unit": 1,
       "type": "multiple-choice",
-      "question_text": "An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. This pattern is best explained by:",
+      "question_text": "An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. What is the underlying *cause* of this pattern?",
       "options": [
         {
           "letter": "A",
@@ -211,23 +211,23 @@
         },
         {
           "letter": "B",
-          "text": "Distance decay alone"
+          "text": "Cultural diffusion"
         },
         {
           "letter": "C",
-          "text": "The friction of distance and the resulting distance decay effect"
+          "text": "The friction of distance, which produces the observed distance decay effect on customer interaction"
         },
         {
           "letter": "D",
-          "text": "Cultural diffusion"
+          "text": "Globalization"
         }
       ],
       "correct_letters": [
         "C"
       ],
       "answer": "C",
-      "answer_headline": "Friction of distance and resulting distance decay",
-      "explanation_md": "The friction of distance is the underlying cause; distance decay is the observed pattern. Both terms describe the same phenomenon at different levels of explanation, which is why C is more complete than B.",
+      "answer_headline": "Friction of distance, producing distance decay",
+      "explanation_md": "The question asks for the underlying *cause*. Friction of distance is the cause: the effort, time, and money required to move across space discourages interaction over longer distances. Distance decay is the observed result, the falloff in interaction with distance. A and D describe unrelated processes; B is a different concept entirely.",
       "topic_code": "1.3",
       "skill_code": "1.D"
     },
@@ -656,7 +656,7 @@
       ],
       "answer": "B",
       "answer_headline": "Stage 2 with high fertility",
-      "explanation_md": "A wide base = lots of children = high fertility. A narrowing top = high mortality at older ages. Symmetrical sides rule out heavy male out-migration.",
+      "explanation_md": "A wide base means lots of children, which means high fertility. The steady narrowing reflects continued mortality at all ages combined with each younger cohort being larger than the one before it (the signature of population still growing rapidly). Symmetrical sides rule out heavy male out-migration.",
       "topic_code": "2.3",
       "skill_code": "3.D"
     },
@@ -1580,7 +1580,7 @@
       ],
       "answer": "B",
       "answer_headline": "Highest near the CBD, declining outward",
-      "explanation_md": "The bid-rent curve: businesses outbid one another for central, high-accessibility land. Land values fall with distance from the CBD, with secondary peaks at suburban nodes.",
+      "explanation_md": "The bid-rent curve: businesses outbid one another for central, high-accessibility land, so land values are highest at or near the CBD and decline steadily with distance from it. (The \"secondary peaks at suburban nodes\" pattern belongs to the multiple-nuclei model, not Burgess's concentric zone model the question asks about.)",
       "topic_code": "6.5",
       "skill_code": "2.A"
     },

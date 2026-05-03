@@ -79,12 +79,12 @@ D) Cartographic generalization
 ---
 
 ### Question 7
-An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. This pattern is best explained by:
+An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. What is the underlying *cause* of this pattern?
 
 A) Time-space convergence
-B) Distance decay alone
-C) The friction of distance and the resulting distance decay effect
-D) Cultural diffusion
+B) Cultural diffusion
+C) The friction of distance, which produces the observed distance decay effect on customer interaction
+D) Globalization
 
 ---
 

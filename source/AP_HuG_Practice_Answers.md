@@ -31,8 +31,8 @@ For comparing area (like deforestation), use an equal-area projection so that la
 GIS layers multiple types of spatial data (vegetation imagery, tax records, zoning) for combined analysis. Remote sensing is one input; GIS is the broader system that integrates them.
 *Topic 1.2 | Skill 4.A*
 
-**Q7: C — Friction of distance and resulting distance decay**
-The friction of distance is the underlying cause; distance decay is the observed pattern. Both terms describe the same phenomenon at different levels of explanation, which is why C is more complete than B.
+**Q7: C — Friction of distance, producing distance decay**
+The question asks for the underlying *cause*. Friction of distance is the cause: the effort, time, and money required to move across space discourages interaction over longer distances. Distance decay is the observed result, the falloff in interaction with distance. A and D describe unrelated processes; B is a different concept entirely.
 *Topic 1.3 | Skill 1.D*
 
 **Q8: C — Perceptual (vernacular) region**
@@ -88,7 +88,7 @@ High CBR (38), low CDR (9), and a very young age structure (43% under 15) match 
 *Topic 2.4 | Skill 5.B*
 
 **Q20: B — Stage 2 with high fertility**
-A wide base = lots of children = high fertility. A narrowing top = high mortality at older ages. Symmetrical sides rule out heavy male out-migration.
+A wide base means lots of children, which means high fertility. The steady narrowing reflects continued mortality at all ages combined with each younger cohort being larger than the one before it (the signature of population still growing rapidly). Symmetrical sides rule out heavy male out-migration.
 *Topic 2.3 | Skill 3.D*
 
 **Q21: B — Refugees (forced migration)**
@@ -216,7 +216,7 @@ Range = how far people will travel for the good. Threshold = minimum customer ba
 *Topic 6.4 | Skill 2.A*
 
 **Q48: B — Highest near the CBD, declining outward**
-The bid-rent curve: businesses outbid one another for central, high-accessibility land. Land values fall with distance from the CBD, with secondary peaks at suburban nodes.
+The bid-rent curve: businesses outbid one another for central, high-accessibility land, so land values are highest at or near the CBD and decline steadily with distance from it. (The "secondary peaks at suburban nodes" pattern belongs to the multiple-nuclei model, not Burgess's concentric zone model the question asks about.)
 *Topic 6.5 | Skill 2.A*
 
 **Q49: B — Primate city pattern**
