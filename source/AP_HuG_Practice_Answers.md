@@ -148,7 +148,7 @@ Packing concentrates the target group so they "waste" votes by winning a few dis
 *Topic 4.6 | Skill 2.C*
 
 **Q33: B — Power constitutionally divided between central and subnational governments**
-Federal states: U.S., Germany, Brazil, India, Canada, Australia. Unitary states: France, Japan, China.
+Federal states: U.S., Germany, Brazil, India, Canada, Australia. Option A describes a unitary state (France, Japan, China). Option C describes a confederation, in which the center is weak (e.g., the early U.S. Articles of Confederation).
 *Topic 4.7 | Skill 1.A*
 
 **Q34: C — Superimposed boundary**

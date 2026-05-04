@@ -30,9 +30,9 @@ D. Distortion of distance caused by the curvature of small-scale features
 The pattern in the table best demonstrates which concept?
 
 A. The danger of relying on a single national average to describe local conditions
-B. That bilingualism declines as scale becomes more local
-C. That national-level data is always more accurate than local data
-D. That cartographic scale and analytical scale produce the same results
+B. That bilingualism rates fall steadily as the unit of analysis becomes more local
+C. That coarser national-level data is typically more reliable than fine-grained local data
+D. That cartographic scale and scale of analysis necessarily produce identical results
 
 ---
 
@@ -56,19 +56,19 @@ D. Vernacular
 
 **Q5.** A researcher studying obesity rates finds that rates are low when measured at the national level, moderate when measured at the state level, and very high in specific urban neighborhoods. Which conclusion is best supported?
 
-A. The national-level data is incorrect.
-B. Obesity rates are uniform across the country.
+A. The national-level dataset must contain measurement errors that should be corrected.
+B. Obesity rates are essentially uniform across the country once outliers are excluded.
 C. Patterns visible at one scale of analysis can be obscured at another.
-D. Local data should always replace national data in policy decisions.
+D. Local data should always replace national data when setting public health policy.
 
 ---
 
 **Q6.** Which of the following best illustrates distance decay?
 
-A. A national chain opens stores in every state regardless of distance from headquarters.
-B. The frequency of phone calls between two cities decreases as the distance between them increases.
-C. A border wall reduces migration between two countries.
-D. Time zones change every 15 degrees of longitude.
+A. A national chain opens new stores in every state regardless of distance from corporate headquarters.
+B. The number of phone calls between two cities falls as the distance between them grows.
+C. A new border wall sharply reduces unauthorized migration between two adjoining countries.
+D. Standard time zones change every 15 degrees of longitude across the surface of the globe.
 
 ---
 
@@ -114,19 +114,19 @@ A study of voting patterns in Country X finds that at the national level, the ur
 
 Which conclusion follows most directly from this finding?
 
-A. The national-level analysis is the most accurate.
-B. Race and ethnicity have no effect on voting behavior.
+A. The national-level analysis is the most accurate of the three for explaining voting behavior.
+B. Race and ethnicity have no measurable effect on voting behavior at any scale of analysis.
 C. The factors that best explain a pattern can change with the scale of analysis.
-D. Neighborhood-level studies should replace state-level studies.
+D. Neighborhood-level studies of age and income should replace state-level studies of race.
 
 ---
 
 **Q12.** A country has a low arithmetic density but a very high physiological density. This combination most likely indicates that:
 
-A. The country is heavily urbanized across its entire territory.
-B. Most of the country's land is unsuitable for farming, concentrating the population on limited arable land.
-C. The country has no agricultural sector.
-D. The country has both a small population and abundant farmland.
+A. The country is heavily urbanized across nearly all of its national territory.
+B. Most land is unsuitable for farming, so the population concentrates on the limited arable areas.
+C. The country has only a very minor agricultural sector relative to its overall economy.
+D. The country has both a small total population and abundant high-quality farmland to spare.
 
 ---
 
@@ -141,19 +141,19 @@ D. The territory of a national government
 
 **Q14.** When geographers describe a city's *situation*, they are referring to:
 
-A. Its absolute latitude and longitude
-B. The physical characteristics of the land it occupies
+A. Its absolute latitude and longitude as plotted on a global coordinate grid
+B. The physical characteristics of the specific land that it occupies
 C. Its location relative to other places, features, and networks
-D. The age of its built environment
+D. The age and architectural style of its core built environment
 
 ---
 
 **Q15.** A map of the entire world showing major ocean currents has a small cartographic scale. A neighborhood-level study examining how a single park affects nearby property values uses a large analytical scale of detail. The distinction being drawn here is between:
 
-A. Two unrelated concepts that happen to share the word "scale"
-B. Cartographic scale (map representation) and scale of analysis (level at which a phenomenon is studied)
-C. Local and global mapping conventions
-D. Quantitative and qualitative geography
+A. Two largely unrelated cartographic ideas that happen to share the same English word "scale"
+B. Cartographic scale (map representation) versus scale of analysis (level of study)
+C. Conventions for local-area maps versus conventions for global-area maps
+D. The divide between quantitative and qualitative methods in modern geography
 
 ---
 
@@ -190,19 +190,19 @@ D. Step migration
 
 Which statement is best supported by the data?
 
-A. Country P has a higher youth dependency ratio and likely faces pressure to expand schools and pediatric care.
-B. Country Q has a younger population overall than Country P.
-C. Both countries have the same dependency burden because both add to roughly 100%.
-D. Country P is in Stage 4 of the demographic transition.
+A. Country P has a higher youth dependency ratio and likely strains schools and pediatric services.
+B. Country Q has a structurally younger population overall than Country P does at the moment.
+C. Both countries carry the same overall dependency burden since the columns add to roughly 100%.
+D. Country P is most likely in Stage 4 of the demographic transition rather than in Stage 2.
 
 ---
 
 **Q19.** Ravenstein's laws of migration generally suggest that:
 
-A. Most migrants travel very long distances internationally.
-B. Most migrants move short distances, and long-distance migrants tend to head to major economic centers.
-C. Migration is random and not patterned by economic factors.
-D. Women migrate only as part of family units, never independently.
+A. Most migrants travel very long distances across international borders to reach a destination.
+B. Most migrants move short distances, and long-distance movers head to major economic centers.
+C. Migration flows are essentially random and are not patterned by economic or geographic factors.
+D. Women migrate only as part of larger family units and rarely as independent labor migrants.
 
 ---
 
@@ -221,10 +221,10 @@ At the national level, Country R has a roughly even age distribution, suggesting
 
 This case best illustrates that:
 
-A. National-level demographic data can mask significant regional variation in population structure.
-B. Country R is uniformly in Stage 4.
-C. Stage 2 and Stage 5 cannot exist simultaneously within one country.
-D. Population pyramids are not useful at the regional scale.
+A. National data can mask significant regional variation in population structure.
+B. Country R is essentially uniform across its territory and sits squarely in Stage 4.
+C. Stage 2 and Stage 5 demographic profiles cannot coexist simultaneously within one country.
+D. Population pyramids lose most of their analytical value when applied at the regional scale.
 
 ---
 
@@ -289,10 +289,10 @@ A traveler notices that small wooden shrines are placed at the entrance to many 
 
 The shrines are best described as an example of a:
 
-A. Sacred site recognized by international treaty
+A. Sacred site formally recognized by an international treaty
 B. Cultural landscape feature that reflects local cultural traits
-C. Functional region boundary marker
-D. Sign of hierarchical religious diffusion
+C. Boundary marker designating the edge of a formal functional region
+D. Visible sign of hierarchical religious diffusion from a distant hearth
 
 ---
 
@@ -412,37 +412,37 @@ D. Forestry
 
 **Q38.** Which of the following developments most directly challenges Von Thünen's original assumptions when applied to modern agriculture?
 
-A. The fact that some cities are larger than others
-B. Refrigerated transport and global supply chains, which weaken the relationship between distance from market and land use
-C. The continued existence of subsistence farming in some regions
-D. The use of GPS in tractors
+A. The fact that some cities are larger than others, producing differently sized market areas
+B. Refrigerated transport and global supply chains, which weaken the link between distance from market and land use
+C. The continued existence of subsistence farming in regions outside the market economy
+D. The use of GPS-guided tractors and precision agriculture on commercial farms
 
 ---
 
 **Q39.** Thomas Malthus argued that:
 
-A. Agricultural innovation would always keep pace with population growth.
-B. Population grows exponentially while food supply grows arithmetically, leading to crisis unless population is checked.
-C. Population pressure causes societies to intensify agriculture and innovate.
-D. Cities are the primary driver of food shortages.
+A. Agricultural innovation would always keep pace with population growth, preventing any food shortage.
+B. Population grows exponentially while food supply grows arithmetically, producing crisis unless population is checked.
+C. Population pressure pushes societies to intensify agriculture and innovate their way out of scarcity.
+D. Cities, by drawing labor away from farms, are the primary driver of national food shortages.
 
 ---
 
 **Q40.** Ester Boserup's response to Malthus argued that:
 
-A. Population growth necessarily leads to famine.
-B. Food production caps population growth in all cases.
-C. Population pressure drives agricultural intensification and innovation, allowing food production to expand to meet need.
-D. Population always declines when resources become scarce.
+A. Population growth, if left unchecked, necessarily leads to widespread famine and demographic collapse.
+B. Food production sets a hard ceiling on population growth in every society and historical period.
+C. Population pressure drives agricultural intensification and innovation, expanding food production to meet need.
+D. Population always declines when resources become scarce, returning the system to equilibrium.
 
 ---
 
 **Q41.** The Green Revolution of the mid-20th century is most directly associated with:
 
-A. The shift from hunting-gathering to settled agriculture
-B. The introduction of high-yield seed varieties, synthetic fertilizers, and irrigation, especially in parts of Asia and Latin America
-C. The collapse of subsistence agriculture worldwide
-D. The widespread return to organic farming methods
+A. The original shift from hunting-gathering to settled agriculture during the Neolithic period
+B. The spread of high-yield seed varieties, synthetic fertilizers, and irrigation across Asia and Latin America
+C. The near-total collapse of subsistence agriculture across the developing world over recent decades
+D. A widespread return to organic and small-scale farming methods within wealthier core economies
 
 ---
 
@@ -455,37 +455,37 @@ D. The widespread return to organic farming methods
 
 Which statement is best supported by the table?
 
-A. Country V exhibits commodity dependency and is more vulnerable to swings in global agricultural prices.
-B. Country W has a less diversified export economy than Country V.
-C. Both countries are equally exposed to commodity price shocks.
-D. Country V is in a later stage of economic development than Country W.
+A. Country V exhibits commodity dependency and is more vulnerable to global agricultural price swings.
+B. Country W has a less diversified export economy than Country V and depends mainly on raw goods.
+C. Both countries are equally exposed to commodity price shocks given their export composition.
+D. Country V is in a later stage of economic development than Country W based on its export mix.
 
 ---
 
 **Q43.** The First (Neolithic) Agricultural Revolution is best characterized by:
 
-A. The introduction of mechanized tractors
+A. The introduction of mechanized tractors and steel plows on European farms
 B. The domestication of plants and animals and the shift toward settled farming
-C. The spread of high-yield rice varieties
-D. The development of factory farming
+C. The spread of high-yield rice and wheat varieties across South and East Asia
+D. The development of large-scale factory farming and confined animal feeding operations
 
 ---
 
 **Q44.** The Second Agricultural Revolution, occurring alongside the Industrial Revolution, is most associated with:
 
-A. Domestication of the first crops
-B. Improved farming techniques, crop rotation, and mechanization that increased yields and supported urban industrial workforces
-C. Genetically modified organisms
-D. The collapse of European feudalism caused solely by climate change
+A. The original domestication of the first crops in the Fertile Crescent and similar hearths
+B. Improved farming techniques, crop rotation, and mechanization that raised yields and fed urban industrial workforces
+C. The introduction of genetically modified organisms and biotech seeds in modern commercial agriculture
+D. The collapse of European feudalism caused entirely by changing climate patterns in the Middle Ages
 
 ---
 
 **Q45.** Which of the following best distinguishes commercial agriculture from subsistence agriculture?
 
-A. Commercial agriculture is always more environmentally sustainable.
-B. Commercial agriculture produces primarily for sale on the market, while subsistence agriculture produces primarily for the farmer's household.
-C. Subsistence agriculture uses only modern machinery.
-D. Commercial agriculture occurs only in periphery countries.
+A. Commercial agriculture is always more environmentally sustainable than subsistence farming systems.
+B. Commercial agriculture produces primarily for sale on the market, while subsistence farming feeds the producing household.
+C. Subsistence agriculture relies on only the most modern machinery and high-input technology packages.
+D. Commercial agriculture occurs only in periphery countries with low labor costs and weak land regulation.
 
 ---
 
@@ -495,10 +495,10 @@ In a metropolitan region, land within 5 miles of the central market sells for $9
 
 A scale-of-analysis comparison of this region with a similar region across the country shows the same overall pattern, even though absolute prices differ. This is most consistent with:
 
-A. The bid-rent theory and Von Thünen-style logic, where land use intensity falls with distance from market
-B. A complete breakdown of locational theory in modern economies
-C. The Boserup hypothesis
-D. Wallerstein's world-systems theory
+A. The bid-rent theory and Von Thünen-style logic, where land rents fall with distance from market
+B. A breakdown of classical locational theory in modern post-industrial economies
+C. The Boserup hypothesis on agricultural intensification under population pressure
+D. Wallerstein's world-systems theory of core, semi-periphery, and periphery
 
 ---
 
@@ -506,37 +506,37 @@ D. Wallerstein's world-systems theory
 
 **Q47.** The Burgess concentric zone model, developed using early-20th-century Chicago as a reference, describes urban form as:
 
-A. Sectors radiating outward from the CBD along major transportation routes
-B. A series of rings around a central business district, with land use changing by ring
-C. Multiple specialized nodes scattered across the urban area
-D. A spine of elite housing extending out from a colonial-era core
+A. Wedge-shaped sectors radiating outward from the CBD along major transportation corridors
+B. A series of rings around a central business district, with land use changing ring by ring
+C. Multiple specialized nodes scattered across the urban area, each anchoring its own activities
+D. A spine of elite housing extending out from a colonial-era core, ringed by squatter settlements
 
 ---
 
 **Q48.** The Hoyt sector model differs from the Burgess model primarily because Hoyt argued that:
 
-A. Cities have no central business district.
-B. Urban land use develops in wedge-shaped sectors that extend outward from the center, often along transport corridors.
-C. All cities follow the same single-ring pattern.
-D. Industry always locates in the city center.
+A. Cities have no central business district and grow outward from scattered residential nodes.
+B. Urban land use develops in wedge-shaped sectors extending outward from the center, often along transport corridors.
+C. All cities follow the same single concentric-ring pattern regardless of transportation.
+D. Industry always locates at the geographic center of the city, displacing residential land use.
 
 ---
 
 **Q49.** The Harris-Ullman multiple nuclei model is best summarized as:
 
-A. Cities organized around a single dominant center
-B. Cities developing around several specialized centers, each attracting compatible activities and repelling incompatible ones
-C. Cities defined by their colonial spine and disamenity sectors
-D. Cities where land use is determined entirely by ethnic enclaves
+A. Cities organized around a single dominant central business district that drives all growth
+B. Cities developing around several specialized nodes, each attracting compatible activities and repelling incompatible ones
+C. Cities defined primarily by a colonial-era commercial spine and peripheral disamenity sectors
+D. Cities in which the pattern of land use is determined entirely by the location of ethnic enclaves
 
 ---
 
 **Q50.** The Griffin-Ford Latin American city model describes a city structure that includes:
 
-A. Concentric rings with no central business district
-B. A central CBD with a commercial spine of high-quality housing extending outward, surrounded by zones of decreasing housing quality and disamenity sectors at the periphery
-C. Five evenly spaced sectors of identical land use
-D. Multiple CBDs of equal size, with no peripheral squatter settlements
+A. Concentric rings of housing radiating outward from a single residential point, with no central business district at the core
+B. A central CBD with a commercial spine of high-quality housing, ringed by zones of declining housing quality and disamenity sectors
+C. Five evenly spaced sectors of identical land use radiating outward from a central colonial plaza at the city's geographic center
+D. Multiple CBDs of equal size scattered across the metropolitan area, with no peripheral squatter settlements or disamenity zones
 
 ---
 
@@ -562,10 +562,10 @@ D. A polycentric metropolitan structure
 
 **Q52.** Alfred Weber's least cost theory of industrial location argues that the optimal location for a manufacturing plant is determined by minimizing:
 
-A. Labor costs only
-B. Transportation costs, labor costs, and agglomeration effects
-C. Environmental impact only
-D. Land costs and tariffs only
+A. Labor costs alone, with no consideration of transport or material weight
+B. Transportation costs, labor costs, and agglomeration effects together
+C. Environmental impact and pollution control costs at the plant site
+D. Land acquisition costs and prevailing trade tariffs at the regional border
 
 ---
 
@@ -579,19 +579,19 @@ D. Land costs and tariffs only
 
 These employment shifts in Country Z are most consistent with:
 
-A. The early stages of Rostow's traditional society
-B. Movement through Rostow's stages from traditional society toward high mass consumption, alongside post-industrial economic restructuring
-C. A reversal of economic development
-D. Wallerstein's definition of a periphery economy
+A. The early stages of Rostow's traditional society, dominated by subsistence agriculture and barter trade
+B. Movement through Rostow's stages toward high mass consumption, alongside post-industrial restructuring
+C. A reversal of economic development as services come to replace stable manufacturing employment
+D. Wallerstein's definition of a periphery economy locked into raw-material exports and dependent labor
 
 ---
 
 **Q54.** Wallerstein's world-systems theory categorizes countries into core, semi-periphery, and periphery primarily on the basis of:
 
-A. Population size
-B. Their position in global economic relationships, including production, trade, and resource flows
-C. Climate and physical geography
-D. Religious affiliation
+A. Population size and the country's total share of world inhabitants
+B. Their position in global economic relationships, including production, trade, and capital flows
+C. Climate, physical geography, and access to natural harbors
+D. Dominant religious affiliation and shared cultural traditions
 
 ---
 
@@ -605,10 +605,10 @@ D. Religious affiliation
 
 Which statement is best supported by the data?
 
-A. Country A is likely to have the highest HDI score because all three component indicators are highest.
-B. HDI rankings depend solely on GNI per capita.
-C. Country B is more developed than Country A on the HDI.
-D. The three indicators in the table are not used in HDI calculations.
+A. Country A is likely to have the highest HDI score because all three component indicators lead the table.
+B. HDI rankings depend solely on GNI per capita and ignore health and education entirely.
+C. Country B is more developed than Country A on the HDI based on its lower per-capita income.
+D. The three indicators shown in the table are not used in standard HDI calculations.
 
 ---
 
@@ -621,37 +621,37 @@ D. The three indicators in the table are not used in HDI calculations.
 
 Which conclusion is best supported?
 
-A. Country E likely has a higher (worse) Gender Inequality Index score because all three indicators reflect substantially greater inequality.
-B. The GII does not consider maternal mortality.
-C. Country D has more gender inequality than Country E.
-D. The two countries have equivalent GII scores.
+A. Country E likely has a higher (worse) GII score because all three indicators show substantially greater inequality.
+B. The GII does not consider maternal mortality, only political and labor force participation.
+C. Country D has more gender inequality than Country E given its share of legislative seats.
+D. The two countries have effectively equivalent GII scores once the indicators are weighted.
 
 ---
 
 **Q57.** The principle of comparative advantage suggests that countries benefit most from international trade when they:
 
-A. Produce every good domestically that they consume
-B. Specialize in producing goods for which they have a relatively lower opportunity cost and trade for the rest
-C. Avoid trade with core economies
-D. Match the export profile of their largest trading partner
+A. Produce every good domestically that their citizens consume to maximize self-sufficiency
+B. Specialize in goods for which they have a relatively lower opportunity cost and trade for the rest
+C. Avoid trade with core economies and trade only within their regional bloc
+D. Match the export profile of their single largest trading partner as closely as possible
 
 ---
 
 **Q58.** A region's economy shifts from large factories with assembly-line production and long-term employment toward flexible production, contract labor, and service-sector jobs. This shift is best described as:
 
-A. A return to Fordism
+A. A return to Fordism, with stable mass production and lifetime factory employment
 B. Economic restructuring toward a post-Fordist, service-oriented economy
-C. A move from semi-periphery to periphery in Wallerstein's framework
-D. Deglobalization
+C. A downward move from semi-periphery to periphery within Wallerstein's framework
+D. Deglobalization driven by the retreat of multinational firms from the region
 
 ---
 
 **Q59.** Sustainable development is most commonly defined as development that:
 
-A. Maximizes GDP growth without regard to other factors
-B. Meets the needs of the present without compromising the ability of future generations to meet their own needs
-C. Returns societies to pre-industrial economic patterns
-D. Is led entirely by supranational organizations
+A. Maximizes GDP growth in the short term without regard to environmental or social factors
+B. Meets present needs without compromising the ability of future generations to meet their own
+C. Returns societies to pre-industrial economic patterns to lower their environmental footprint
+D. Is led entirely by supranational organizations rather than by national or local actors
 
 ---
 
@@ -667,10 +667,10 @@ D. Is led entirely by supranational organizations
 
 Which conclusion is best supported by the data?
 
-A. Country J's national HDI accurately represents conditions across the country.
-B. Examining development indicators only at the national scale can hide significant regional and local inequality.
-C. The southern region is uniformly less developed than the northern region.
-D. Urban areas always have lower HDI than rural areas.
+A. Country J's single national HDI score accurately represents living conditions across the country.
+B. Looking at development indicators only at the national scale can hide significant regional and local inequality.
+C. The southern region is uniformly less developed than the northern region at every level of analysis.
+D. Urban areas always show a lower HDI than rural areas because of overcrowding and pollution.
 
 ---
 

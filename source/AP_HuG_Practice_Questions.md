@@ -22,10 +22,10 @@ D) Spatial diffusion
 ### Question 2
 A researcher studying obesity rates in the United States finds that the national average is about 36 percent, but rates within Mississippi range from 20 percent in some counties to over 50 percent in others. What does this finding most clearly illustrate?
 
-A) National-scale data accurately reflects local conditions
-B) Patterns visible at one scale of analysis may obscure variation at another scale
-C) The United States has uniformly high obesity rates
-D) Choropleth maps are unreliable at the state scale
+A) National-scale averages accurately reflect conditions in individual counties
+B) Patterns at one scale of analysis can hide variation at another scale
+C) Obesity rates are uniformly high across all U.S. counties
+D) County-level health data is generally less reliable than state data
 
 ---
 
@@ -41,70 +41,70 @@ D) Choropleth maps are unreliable at the state scale
 
 The data above most strongly support which conclusion?
 
-A) National turnout is the most accurate measure of civic engagement
-B) Turnout patterns at smaller scales may diverge significantly from larger-scale aggregates
-C) Urban voters consistently turn out at higher rates than rural voters
-D) State-level data is always higher than national-level data
+A) National turnout figures are the most accurate measure of overall civic engagement
+B) Smaller-scale turnout can diverge sharply from larger-scale aggregates
+C) Urban voters consistently turn out at higher rates than suburban or rural voters
+D) State-level turnout always exceeds the corresponding national-level turnout
 
 ---
 
 ### Question 4
 The Mercator projection is widely used for navigation but is often criticized in geography classrooms because it:
 
-A) Cannot represent the entire globe on a flat surface
-B) Distorts the size of landmasses, making areas near the poles appear far larger than they actually are
-C) Fails to preserve compass direction, making it unsuitable for sailors
-D) Uses a polar perspective that disorients most readers
+A) Cannot represent the entire surface of the globe on a single flat sheet
+B) Distorts landmass size, making polar areas appear far larger than they are
+C) Fails to preserve compass direction, which makes it unreliable for navigation
+D) Uses a polar-centered perspective that disorients most general-purpose readers
 
 ---
 
 ### Question 5
 A geographer wants to compare deforestation rates across continents using a single map. Which projection would be most appropriate?
 
-A) Mercator, because it preserves direction
-B) Robinson, because it offers a compromise between shape and area
-C) An equal-area projection such as Gall-Peters, because it preserves the relative size of landmasses
-D) A polar azimuthal projection, because it centers on a specific point
+A) Mercator, because it preserves compass direction across the entire map
+B) Robinson, because it offers a visual compromise between shape and area
+C) An equal-area projection like Gall-Peters, because it preserves landmass size
+D) A polar azimuthal projection, because it centers the map on a single chosen point
 
 ---
 
 ### Question 6
 A city planner uses satellite imagery to identify changes in vegetation cover over the past 20 years and then layers this data with property tax records and zoning maps in a single software environment. The combination of these tools is best described as:
 
-A) Remote sensing only
+A) Remote sensing alone, without integration of other spatial data layers
 B) Geographic Information Systems (GIS), incorporating remote sensing data
-C) Global Positioning System (GPS) tracking
-D) Cartographic generalization
+C) Global Positioning System (GPS) tracking of property and vegetation points
+D) Cartographic generalization of multiple municipal map sources
 
 ---
 
 ### Question 7
 An ice cream shop in a small town has a strong customer base from people living within a half mile, a smaller base from one to two miles away, and almost no customers from beyond five miles. What is the underlying *cause* of this pattern?
 
-A) Time-space convergence
-B) Cultural diffusion
-C) The friction of distance, which produces the observed distance decay effect on customer interaction
-D) Globalization
+A) Time-space convergence between the shop and nearby neighborhoods
+B) Hierarchical diffusion of consumer preferences across the town
+C) The friction of distance, producing a distance decay effect on customer interaction
+D) Globalization of the local consumer goods market
 
 ---
 
 ### Question 8
 "The Bible Belt" is most accurately described as which type of region?
 
-A) A formal region with clearly defined political boundaries
-B) A functional region organized around a central node
-C) A perceptual (vernacular) region defined by shared cultural characteristics and informal recognition
-D) A microregion based on a single demographic variable
+A) A formal region with legally defined political and administrative boundaries
+B) A functional region organized around a single administrative or commercial node
+C) A perceptual (vernacular) region defined by shared cultural identity and informal recognition
+D) A formal region defined by a single quantifiable demographic variable
 
 ---
 
 ### Question 9
 The construction of greenhouses, irrigation systems, and climate-controlled buildings to grow tomatoes year-round in Iceland best illustrates the geographic concept of:
 
-A) Environmental determinism
+A) Environmental determinism shaping Icelandic agricultural choices
 B) Possibilism, where humans use technology to overcome environmental limits
-C) Pure cultural ecology
-D) Sustainability for its own sake
+C) Cultural ecology, focusing on adaptation to existing climate conditions
+D) Sustainable agriculture practices unrelated to climate constraints
 
 ---
 
@@ -120,10 +120,10 @@ D) Sustainability for its own sake
 
 The pattern in the table illustrates which key concept?
 
-A) Aggregated data at larger scales can mask significant variation at smaller scales
-B) Metropolitan data is always less reliable than national data
-C) Income distribution is uniform across scales
-D) Median income increases as scale becomes more local
+A) Aggregated data at larger scales can hide variation at smaller scales
+B) Metropolitan-level income data is generally less reliable than national-level data
+C) Median household income is distributed uniformly across geographic scales
+D) Median household income tends to rise as the scale of analysis becomes more local
 
 ---
 
@@ -160,10 +160,10 @@ D) Cartogram showing land area
 ### Question 14
 A national policy designed to reduce unemployment may have very different effects in rural Appalachia compared to urban Boston. This observation most directly demonstrates that:
 
-A) Policies should only be designed at the local scale
-B) National-scale interventions can produce uneven outcomes when applied across regions with different local conditions
-C) Local conditions are irrelevant to national outcomes
-D) Federal governments cannot effectively address economic problems
+A) National employment policies should be designed exclusively at the local scale
+B) National-scale interventions can produce uneven outcomes across regions with different local conditions
+C) Local economic conditions are largely irrelevant to national policy outcomes
+D) Federal governments cannot effectively address regional economic problems
 
 ---
 
@@ -202,10 +202,10 @@ D) Stage 5
 ### Question 17
 Which of the following is the clearest example of a pronatalist policy?
 
-A) Mandatory family planning education in public schools
+A) Mandatory national family planning education curriculum in public schools
 B) Tax credits and extended paid parental leave for families with multiple children
-C) A national one-child limit
-D) Increased public funding for contraception access
+C) A national one-child limit enforced through fines and housing penalties
+D) Substantially increased public funding for contraception access and clinics
 
 ---
 
@@ -263,10 +263,10 @@ D) Step migrants
 ### Question 22
 Creolization is best defined as:
 
-A) The replacement of an Indigenous language by a dominant colonial language
-B) The blending of two or more languages into a stable new language that becomes the native tongue of a community
-C) The temporary mixing of languages by traders, with no native speakers
-D) The standardization of dialects within a single language
+A) The full replacement of an Indigenous language by a dominant colonial language over time
+B) The blending of two or more languages into a stable new language with native speakers
+C) The temporary mixing of languages by traders or laborers, with no native speaker community
+D) The standardization of regional dialects within a single established national language
 
 ---
 
@@ -293,10 +293,10 @@ D) Counter-urbanization
 ### Question 25
 Which of the following best distinguishes a universalizing religion from an ethnic religion?
 
-A) Universalizing religions are older than ethnic religions
-B) Universalizing religions actively seek converts globally, while ethnic religions are typically tied to a specific people or place
-C) Ethnic religions have more adherents than universalizing religions
-D) Universalizing religions never have sacred texts
+A) Universalizing religions are typically older than the major ethnic religions
+B) Universalizing religions actively seek converts globally, while ethnic religions are tied to a specific people or place
+C) Ethnic religions generally have more global adherents than universalizing religions
+D) Universalizing religions rarely produce written sacred texts or scripture
 
 ---
 
@@ -313,20 +313,20 @@ D) The blending of two cultures over time
 ### Question 27
 English functions as a lingua franca in international business and aviation primarily because:
 
-A) It is the most spoken native language in the world
-B) Historical patterns of British colonization and U.S. economic and cultural influence have spread it widely as a second language
-C) It is the easiest language in the world to learn
-D) The United Nations declared it the official global language
+A) It currently has the largest number of native speakers of any language in the world
+B) British colonization and U.S. economic and cultural influence spread it widely as a second language
+C) Its grammar and pronunciation are widely considered the easiest in the world to learn
+D) The United Nations formally designated it the single official global working language
 
 ---
 
 ### Question 28
 A visitor to a small town in Iowa observes a Lutheran church on Main Street, a grain elevator near the rail tracks, and a town square with a Civil War memorial. Together, these features are best described as a:
 
-A) Sequent occupance only
-B) Cultural landscape that reflects the layered history of the community
-C) Vernacular region
-D) Functional region
+A) An example of sequent occupance by successive cultural groups
+B) A cultural landscape that reflects the layered history of the community
+C) A vernacular region defined by perceived shared cultural identity
+D) A functional region organized around the central town square
 
 ---
 
@@ -335,20 +335,20 @@ D) Functional region
 ### Question 29
 Iceland is often cited as a relatively close example of a nation-state because:
 
-A) It controls a large territory across multiple continents
-B) The boundaries of the state largely correspond with a population that shares a common cultural identity, language tradition, and history
-C) It has no immigrants at all
-D) It is part of a larger supranational federation
+A) It controls a large overseas territory spanning several continents and oceans
+B) Its state boundaries largely correspond with a population sharing common identity, language, and history
+C) Its population is composed entirely of native-born citizens with no recent immigrants
+D) It is governed as a constituent member of a larger supranational federal union
 
 ---
 
 ### Question 30
 A shatterbelt region is best described as:
 
-A) A boundary marked by physical features such as mountains or rivers
-B) A region caught between the political and cultural pressures of two or more competing external powers, often experiencing fragmentation and conflict
-C) An area where two cultures blend peacefully over time
-D) A self-governing region within a federal state
+A) A political boundary marked by major physical features such as mountains or rivers
+B) A region caught between competing external powers, often experiencing fragmentation and conflict
+C) A cultural transition zone where two or more major cultures blend peacefully over time
+D) A self-governing constituent region within a larger federal or unitary state
 
 ---
 
@@ -365,20 +365,20 @@ D) Perforated
 ### Question 32
 "Packing" in the context of gerrymandering refers to:
 
-A) Drawing district boundaries to spread a target group thinly across many districts so that they cannot win any
-B) Concentrating a target group of voters into a small number of districts to limit their overall influence in the legislature
-C) Combining several small districts into a single larger one for administrative efficiency
-D) Aligning district boundaries with existing county lines
+A) Drawing district boundaries to spread a target group of voters thinly across many districts so they cannot win any
+B) Concentrating a target group of voters into a few districts to limit their overall legislative influence
+C) Combining several small districts into a single larger one to consolidate administrative authority and reduce election costs
+D) Aligning district boundaries with existing county lines to preserve traditional units of local government
 
 ---
 
 ### Question 33
 Which of the following best describes a federal state?
 
-A) Power is concentrated in a single central government with limited regional authority
+A) Power is concentrated in a single central government, with regional units serving mainly administrative functions
 B) Power is constitutionally divided between a central government and subnational governments such as states or provinces
-C) Power is held entirely by local governments with no national oversight
-D) Power rotates between competing political parties on a fixed schedule
+C) Power is held by local governments under a confederal arrangement, with the central authority weak or symbolic
+D) Power rotates among the largest political parties on a fixed constitutional schedule set by national law
 
 ---
 
@@ -405,10 +405,10 @@ D) Irredentism
 ### Question 36
 A country joining the European Union typically agrees to:
 
-A) Surrender complete national sovereignty to a central EU government
-B) Cede certain economic and regulatory powers to a supranational organization in exchange for benefits like a common market and shared institutions
-C) Adopt an entirely new national language and legal system
-D) Dissolve its national government in favor of EU rule
+A) Surrender complete national sovereignty to a central EU government in Brussels with binding authority over all domestic affairs
+B) Cede certain economic and regulatory powers to a supranational organization in exchange for common-market access
+C) Adopt an entirely new national language and legal system based on the European Court of Justice's framework
+D) Dissolve its national government and place all administrative functions under direct EU rule from Brussels
 
 ---
 
@@ -434,10 +434,10 @@ D) Birth rates would naturally fall as societies industrialized
 ### Question 38
 In contrast to Malthus, Ester Boserup argued that:
 
-A) Population pressure encourages agricultural innovation and intensification, allowing food production to expand
-B) Food production grows geometrically while population grows arithmetically
-C) Famine is the only natural check on population
-D) Industrialization always reduces agricultural output
+A) Population pressure encourages agricultural innovation and intensification, expanding food output
+B) Food production grows geometrically while population grows arithmetically, generating long-term agricultural surplus
+C) Famine remains the only natural check on population, since technology cannot meaningfully expand food supply
+D) Industrialization eventually reduces total agricultural output as labor migrates to urban manufacturing jobs
 
 ---
 
@@ -447,20 +447,20 @@ Imagine an isolated city surrounded by a flat, uniform plain with one market and
 
 According to Von Thünen's model, which activity will be located closest to the central market?
 
-A) Extensive grain farming
-B) Ranching
-C) Forestry (in the original model, due to weight and transport cost)
-D) Intensive horticulture and dairying (perishable, high-value goods)
+A) Extensive grain farming, located on cheaper land farther from the central market
+B) Ranching, placed on the outermost ring where land is least expensive
+C) Forestry, placed in the second ring due to wood's weight and transport cost
+D) Intensive horticulture and dairying, since these goods are perishable and high-value
 
 ---
 
 ### Question 40
 The Green Revolution of the mid-20th century is most directly associated with:
 
-A) Organic farming and traditional seed varieties
-B) The introduction of high-yielding seed varieties, synthetic fertilizers, pesticides, and irrigation technologies, particularly in parts of Asia and Latin America
-C) Reducing global meat consumption
-D) Replacing commercial farms with subsistence agriculture
+A) The expansion of organic farming using traditional, locally adapted seed varieties
+B) High-yielding seed varieties, synthetic fertilizers, pesticides, and irrigation, mainly in Asia and Latin America
+C) Coordinated international efforts to reduce global meat consumption and shift to plant-based diets
+D) The deliberate replacement of large commercial farms with smallholder subsistence agriculture
 
 ---
 
@@ -477,10 +477,10 @@ D) Replacing commercial farms with subsistence agriculture
 
 Country X's export profile most directly illustrates:
 
-A) A diversified post-industrial economy
-B) Commodity dependency, where a national economy is heavily reliant on a small number of primary-sector exports
-C) High levels of vertical integration in manufacturing
-D) Strong service-sector specialization
+A) A diversified post-industrial economy with broad export categories
+B) Commodity dependency on a small number of primary-sector exports
+C) High levels of vertical integration across the country's manufacturing sector
+D) Strong service-sector specialization driving most national export earnings
 
 ---
 
@@ -506,40 +506,40 @@ D) Mediterranean polyculture
 ### Question 43
 Coffee is most commonly grown in:
 
-A) Cool temperate latitudes with sandy soils
-B) Tropical and subtropical highlands with relatively consistent rainfall
-C) Arid regions dependent on heavy irrigation
-D) Boreal forests
+A) Cool temperate latitudes with sandy, well-drained soils and short growing seasons
+B) Tropical and subtropical highlands with consistent rainfall
+C) Arid regions dependent on heavy mechanized irrigation systems
+D) Boreal forest zones with cold winters and acidic soils
 
 ---
 
 ### Question 44
 A geographer wants to show the share of total agricultural land devoted to corn production by U.S. county. Which type of map would be most appropriate?
 
-A) Choropleth map shading each county by percentage of land in corn
-B) Isoline map of soil pH
-C) Topographic map
-D) Cartogram of national rainfall
+A) Choropleth map shading each county by percent of land in corn
+B) Isoline map of soil pH variation across the agricultural region
+C) Topographic map showing elevation and major drainage features
+D) Cartogram resizing each state by total annual rainfall
 
 ---
 
 ### Question 45
 The trend toward year-round availability of fresh strawberries in U.S. supermarkets, regardless of season, most directly reflects:
 
-A) The rise of subsistence farming in North America
-B) The globalization of agriculture, with production shifting between hemispheres and goods shipped via fast, refrigerated supply chains
-C) The decline of commercial agriculture
-D) The end of comparative advantage in agriculture
+A) The rise of subsistence farming in North America driven by local food demand
+B) The globalization of agriculture, with production shifting between hemispheres via refrigerated supply chains
+C) The steady decline of commercial agriculture across the United States and Canada
+D) The end of comparative advantage as a force shaping global agricultural trade
 
 ---
 
 ### Question 46
 The Second Agricultural Revolution is most closely associated with:
 
-A) The first domestication of plants and animals about 10,000 years ago
-B) Mechanization, improved crop rotation, and selective breeding tied to industrialization in 18th- and 19th-century Europe
-C) The introduction of high-yielding rice varieties in 20th-century Asia
-D) The shift to organic and local-food movements in the 21st century
+A) The first domestication of plants and animals in the Fertile Crescent about 10,000 years ago
+B) Mechanization, improved crop rotation, and selective breeding in 18th- and 19th-century Europe
+C) The introduction of high-yielding rice and wheat varieties across mid-20th-century Asia
+D) The shift toward organic farming and local-food movements across the early 21st century
 
 ---
 
@@ -548,20 +548,20 @@ D) The shift to organic and local-food movements in the 21st century
 ### Question 47
 According to Christaller's central place theory, the "range" of a good refers to:
 
-A) The minimum number of customers needed to make a business viable
-B) The maximum distance consumers are willing to travel to obtain that good or service
-C) The total population of a settlement
-D) The hexagonal shape of market areas
+A) The minimum number of customers needed to make a business viable in a settlement
+B) The maximum distance consumers will travel to obtain that good or service
+C) The total resident population of a settlement that supports central place functions
+D) The hexagonal shape of overlapping market areas in Christaller's lattice
 
 ---
 
 ### Question 48
 In the original concentric zone model, land values typically:
 
-A) Are highest in the outermost suburban ring
-B) Are highest in or near the central business district and decline outward, with some local variation
-C) Are uniform across all zones
-D) Increase steadily from the city center to the urban edge
+A) Are highest in the outermost suburban ring, where newer housing dominates
+B) Are highest in or near the central business district and decline outward
+C) Are roughly uniform across all concentric zones from the CBD to the periphery
+D) Rise steadily from the central business district outward toward the urban edge
 
 ---
 
@@ -588,20 +588,20 @@ D) A central place hierarchy with full nesting
 ### Question 50
 The Latin American (Griffin-Ford) city model typically features:
 
-A) A single concentric ring pattern around a CBD with no other variation
-B) A commercial spine extending from the CBD into a wealthy elite residential sector, surrounded by zones of decreasing socioeconomic status, with disamenity zones at the periphery
-C) Multiple equally weighted nuclei with no dominant center
-D) A purely sectoral pattern with no CBD at all
+A) A single concentric ring pattern around a CBD, with little variation in residential land use
+B) A commercial spine extending from the CBD into a wealthy elite sector, with disamenity zones at the periphery
+C) Multiple equally weighted nuclei with no dominant center, similar to the Harris-Ullman model
+D) A purely sectoral pattern with no central business district, dominated by industrial corridors
 
 ---
 
 ### Question 51
 Installing solar panel arrays on the rooftops of municipal buildings in a city is best described as a strategy for:
 
-A) Suburbanization
-B) Urban sustainability and reducing the urban environmental footprint
-C) Counter-urbanization
-D) Gentrification
+A) Suburbanization of municipal services to outlying areas
+B) Urban sustainability and reducing the city's environmental footprint
+C) Counter-urbanization through migration out of the urban core
+D) Gentrification of older municipal property and infrastructure
 
 ---
 
@@ -618,10 +618,10 @@ D) Gentrification
 
 Which conclusion is best supported by the table?
 
-A) HDI measures only economic output
-B) HDI combines health, education, and income indicators into a single composite measure of development
-C) HDI relies entirely on GDP per capita
-D) HDI measures political freedom
+A) HDI is a single-dimension index that measures only national economic output
+B) HDI combines health, education, and income into a composite development measure
+C) HDI relies entirely on GDP per capita and excludes social indicators of well-being
+D) HDI is primarily a measure of political freedom and civil liberties within a country
 
 ---
 
@@ -637,40 +637,40 @@ D) HDI measures political freedom
 
 A higher Gender Inequality Index (GII) score indicates greater inequality. Based on the table, which statement is best supported?
 
-A) Country P likely has a higher GII than Country Q
+A) Country P likely has a higher GII, indicating greater gender inequality there
 B) Country Q likely has a higher GII, indicating greater gender inequality
-C) GII cannot be inferred from these indicators
-D) Both countries likely have identical GII values
+C) GII cannot reasonably be inferred from the indicators shown in this table
+D) Both countries likely have nearly identical GII values despite the indicator gaps
 
 ---
 
 ### Question 54
 According to Rostow's stages of economic growth, the "take-off" stage is characterized by:
 
-A) Subsistence agriculture and limited technology
-B) Rapid growth in a few leading industrial sectors, expansion of manufacturing, and rising investment
-C) Mass consumption of consumer goods
-D) Service-sector dominance and post-industrial structures
+A) Persistent subsistence agriculture and very limited adoption of new technology
+B) Rapid growth in leading industrial sectors and rising investment in manufacturing
+C) Widespread mass consumption of consumer goods across most of the population
+D) Service-sector dominance and the emergence of a post-industrial economic structure
 
 ---
 
 ### Question 55
 According to Wallerstein's world-systems theory, semi-peripheral countries:
 
-A) Provide raw materials and cheap labor to core countries only
-B) Occupy an intermediate position, exhibiting some characteristics of both core and periphery
-C) Sit entirely outside the global capitalist system
-D) Are defined exclusively by their location in the Global North
+A) Provide raw materials and cheap labor exclusively to core countries within the world-system
+B) Occupy an intermediate position with characteristics of both core and periphery
+C) Sit entirely outside the global capitalist system and operate as autarkic economies
+D) Are defined strictly by their geographic location in the Global North hemisphere
 
 ---
 
 ### Question 56
 Alfred Weber's least-cost theory of industrial location suggests that firms choose locations based primarily on minimizing which combination of factors?
 
-A) Wages, taxes, and rent only
+A) Corporate taxes, executive wages, and commercial rent on industrial sites
 B) Transportation costs, labor costs, and agglomeration effects
-C) Marketing, advertising, and distribution
-D) Land, water, and air pollution mitigation
+C) Marketing, advertising, and product distribution channel costs
+D) Land acquisition, water access, and air pollution mitigation expenses
 
 ---
 
@@ -687,29 +687,29 @@ D) Land, water, and air pollution mitigation
 The shift shown in the table is best described as:
 
 A) Deindustrialization with a transition toward a post-industrial economy
-B) The Second Agricultural Revolution
-C) Re-agrarianization
-D) Demographic transition
+B) The Second Agricultural Revolution reshaping rural employment patterns
+C) Re-agrarianization driven by a return to primary-sector employment
+D) Demographic transition from high to low birth and death rates
 
 ---
 
 ### Question 58
 A debt-for-nature swap is best described as:
 
-A) A loan agreement requiring resource extraction
-B) An arrangement where part of a country's foreign debt is forgiven in exchange for commitments to environmental conservation
-C) A type of foreign direct investment in heavy industry
-D) A trade tariff on natural resources
+A) A loan agreement that requires the borrowing country to expand resource extraction
+B) An arrangement where part of a country's foreign debt is forgiven for conservation commitments
+C) A form of foreign direct investment focused on heavy industry and resource processing
+D) A trade tariff applied specifically to imports of natural resources and primary commodities
 
 ---
 
 ### Question 59
 A country with a small group of very wealthy regions clustered around two coastal cities and large interior areas with very low income levels best illustrates:
 
-A) Uniform development across the state
+A) Uniform development distributed evenly across the state's territory
 B) Spatial inequality and uneven development within a state
-C) The end of core-periphery dynamics
-D) A primate city distribution only
+C) The end of core-periphery dynamics within the country
+D) A primate city distribution with no other significant urban centers
 
 ---
 

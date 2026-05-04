@@ -1,10 +1,12 @@
 (() => {
   "use strict";
 
-  const SESSION_KEY = "aphug_session_v1";
-  const STATS_KEY = "aphug_stats_v1";
+  const SESSION_KEY = "aphug_session_v2";
+  const STATS_KEY = "aphug_stats_v2";
   const THEME_KEY = "aphug_theme";
   const VOICE_KEY = "aphug_voice_v1";
+  const SESSION_SCHEMA_VERSION = 2;
+  const STATS_NOTICE_KEY = "aphug_stats_v2_notified";
 
   const slideEl = document.getElementById("slide");
   const revealBtn = document.getElementById("reveal-btn");
@@ -59,6 +61,7 @@
   let units = UNIT_FALLBACK;
   let order = [];
   let cursor = 0;
+  let salt = "";          // per-session salt that drives option shuffling
   let revealed = false;
   let picks = null;
   let stats = loadStats();
@@ -67,6 +70,58 @@
   let activeListen = null;
   let isReading = false;
   let pendingAutoAdvance = null;
+
+  /* ---------- Per-session option shuffle ----------
+     Each session generates a random salt. The shuffle for a given question
+     is deterministic in (qid, salt) so refreshing mid-session keeps the same
+     letter order. Starting a New Session generates a new salt so letters
+     reshuffle across sessions, killing memorization of "answer is C" tricks. */
+  function newSalt() {
+    return Math.random().toString(36).slice(2, 10);
+  }
+  // Tiny string hash → 32-bit unsigned int. Used only as a shuffle seed.
+  function hashStr(s) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619) >>> 0;
+    }
+    return h;
+  }
+  function mulberry32(seed) {
+    let t = seed >>> 0;
+    return function () {
+      t = (t + 0x6D2B79F5) >>> 0;
+      let r = t;
+      r = Math.imul(r ^ (r >>> 15), r | 1);
+      r ^= r + Math.imul(r ^ (r >>> 7), r | 61);
+      return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function shuffledOptionsFor(q) {
+    if (!q || !q.options || q.options.length === 0) return [];
+    const n = q.options.length;
+    const idx = q.options.map((_, i) => i);
+    const rand = mulberry32(hashStr(q.id + "|" + salt));
+    for (let i = n - 1; i > 0; i--) {
+      const j = Math.floor(rand() * (i + 1));
+      [idx[i], idx[j]] = [idx[j], idx[i]];
+    }
+    const labels = ["A", "B", "C", "D", "E", "F"];
+    return idx.map((origIdx, displayPos) => {
+      const orig = q.options[origIdx];
+      return {
+        letter: labels[displayPos],     // display letter shown to user
+        origLetter: orig.letter,        // original letter stored in source MD
+        text: orig.text,
+      };
+    });
+  }
+  function origLetterFromDisplay(q, displayLetter) {
+    if (!displayLetter) return null;
+    const opt = shuffledOptionsFor(q).find(o => o.letter === displayLetter);
+    return opt ? opt.origLetter : null;
+  }
 
   /* ---------- Theme ---------- */
   function applyTheme(theme) {
@@ -109,9 +164,10 @@
   function questionPlainTextForRead(q) {
     const stem = stripMarkdownForSpeech(q.question_text || "");
     const lines = [stem];
-    if (q.options && q.options.length) {
+    const opts = shuffledOptionsFor(q);
+    if (opts.length) {
       lines.push("");
-      q.options.forEach(opt => { lines.push(opt.letter + ". " + opt.text); });
+      opts.forEach(opt => { lines.push(opt.letter + ". " + opt.text); });
     }
     return lines.join(". ");
   }
@@ -200,7 +256,10 @@
   }
   function handleSpokenAnswer(transcript, q) {
     if (!window.parseSpokenAnswer) return;
-    const parsed = parseSpokenAnswer(transcript, q);
+    // Pass the shuffled-display question to the parser so spoken letters map
+    // to what the user actually sees on screen.
+    const displayQ = { ...q, options: shuffledOptionsFor(q) };
+    const parsed = parseSpokenAnswer(transcript, displayQ);
     if (parsed.skip) { stopListening(); return; }
     if (parsed.letters.length === 0) {
       if (voicePrefs.voiceOnly) {
@@ -359,11 +418,15 @@
       if (!raw) return null;
       const parsed = JSON.parse(raw);
       if (!parsed || !Array.isArray(parsed.order)) return null;
+      if (parsed.version !== SESSION_SCHEMA_VERSION) return null;
+      if (!parsed.salt) return null;
       return parsed;
     } catch (_) { return null; }
   }
   function saveSession() {
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ order, cursor }));
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+      order, cursor, salt, version: SESSION_SCHEMA_VERSION,
+    }));
   }
   function clearSession() { sessionStorage.removeItem(SESSION_KEY); }
 
@@ -374,6 +437,7 @@
     if (indices.length === 0) return;
     order = shuffle(indices);
     cursor = 0;
+    salt = newSalt();   // fresh letter shuffle for this session
     revealed = false;
     picks = null;
     saveSession();
@@ -642,10 +706,11 @@
   }
 
   function renderMultipleChoice(q) {
-    const correct = new Set(q.correct_letters || []);
-    const optsHtml = (q.options || []).map(opt => {
+    const correctOrig = new Set(q.correct_letters || []);
+    const opts = shuffledOptionsFor(q);
+    const optsHtml = opts.map(opt => {
       const isPicked = picks.letter === opt.letter;
-      const isCorrect = correct.has(opt.letter);
+      const isCorrect = correctOrig.has(opt.origLetter);
       let cls = "option";
       if (revealed) {
         if (isCorrect) cls += " correct";
@@ -663,9 +728,10 @@
   }
 
   function gradeAll(q) {
-    const correct = new Set(q.correct_letters || []);
+    const correctOrig = new Set(q.correct_letters || []);
     if (!picks.letter) return "skipped";
-    return correct.has(picks.letter) ? "correct" : "wrong";
+    const orig = origLetterFromDisplay(q, picks.letter);
+    return orig && correctOrig.has(orig) ? "correct" : "wrong";
   }
 
   function renderVerdict(q) {
@@ -678,7 +744,13 @@
 
   function renderExplanation(q) {
     if (!revealed) return "";
-    const headline = q.answer_headline ? `<p class="answer-headline"><strong>Correct answer: ${escapeHtml(q.answer)} &mdash; ${escapeHtml(q.answer_headline)}</strong></p>` : "";
+    // Display the letter as the user saw it this session (shuffled), not the
+    // original letter from the markdown source.
+    let displayLetter = q.answer;
+    const opts = shuffledOptionsFor(q);
+    const match = opts.find(o => o.origLetter === q.answer);
+    if (match) displayLetter = match.letter;
+    const headline = q.answer_headline ? `<p class="answer-headline"><strong>Correct answer: ${escapeHtml(displayLetter)} &mdash; ${escapeHtml(q.answer_headline)}</strong></p>` : "";
     const body = renderMarkdown(q.explanation_md || "");
     let footer = "";
     if (q.topic_code || q.skill_code) {
@@ -787,9 +859,10 @@
   function questionPlainText(q) {
     const stem = stripMd(q.question_text || "");
     const lines = [`${q.set_label || ("Set " + q.set)} Q${q.question_number} (${unitShort(q.unit)})`, "", stem];
-    if (q.options && q.options.length) {
+    const opts = shuffledOptionsFor(q);
+    if (opts.length) {
       lines.push("");
-      q.options.forEach(opt => { lines.push(`${opt.letter}. ${opt.text}`); });
+      opts.forEach(opt => { lines.push(`${opt.letter}. ${opt.text}`); });
     }
     return lines.join("\n");
   }
@@ -912,11 +985,22 @@
           && saved.order.every(i => i >= 0 && i < questions.length)) {
         order = saved.order;
         cursor = saved.cursor || 0;
+        salt = saved.salt;
       } else {
         order = shuffle(questions.map((_, i) => i));
         cursor = 0;
+        salt = newSalt();
         saveSession();
       }
+      // One-time notice that mastery storage was reset (questions were rewritten).
+      try {
+        if (!localStorage.getItem(STATS_NOTICE_KEY)) {
+          localStorage.setItem(STATS_NOTICE_KEY, "1");
+          setTimeout(() => {
+            alert("Heads up: this version reshuffles answer letters every new session and the questions/distractors were rewritten. Your previous correct/wrong history was reset so the new bank starts clean.");
+          }, 400);
+        }
+      } catch (_) {}
       revealed = false;
       picks = null;
       render();

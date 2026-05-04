@@ -106,11 +106,13 @@ GitHub Pages, public repo, branch `main` (or `master`), root folder. URL: `https
 
 - **Picker modal.** Topbar `New session` opens it. Quick-pick chips: All / None / Wrong only / Unanswered / Correct only / Set 1 only / Set 2 only / Unit 1-7. Per-unit All/None links. Per-question checkboxes with one-line stem preview, set tag (S1/S2), and mastery dot.
 - **Progress bars driven by the active subset.** Top bar `correct / wrong / total` plus per-unit bars below it (7 colored bars, one per AP HuG unit).
-- **Mastery persistence.** Per-question correct/wrong stored in `localStorage.aphug_stats_v1`, keyed by question id (`q01`...`q60` for Set 1, `s2-q01`...`s2-q60` for Set 2). `Reset progress` clears it.
+- **Mastery persistence.** Per-question correct/wrong stored in `localStorage.aphug_stats_v2`, keyed by question id (`q01`...`q60` for Set 1, `s2-q01`...`s2-q60` for Set 2). `Reset progress` clears it. (The v2 key was introduced when the question content was rewritten to remove a length-bias signal, so old `_v1` mastery was invalidated.)
 - **Light / dark theme.** Toggle in the topbar; persisted to `localStorage.aphug_theme`.
 - **Voice.** Read-aloud (TTS), push-to-talk spoken answers (ASR), and a voice-only mode that auto-reads each question and listens for an answer. All browser-native via `voice.js`. No API key.
 - **Slide controls.** `Back` (`←`), `Clear` (wipe current pick), `Copy Question` (stem + options to clipboard). Multiple-choice auto-reveals on click; no Reveal button needed.
-- **Session state.** `sessionStorage.aphug_session_v1` holds `{ order, cursor }` so refresh resumes; closing the tab loses it. Mastery and theme live in `localStorage` and survive across tabs.
+- **Session state.** `sessionStorage.aphug_session_v2` holds `{ order, cursor, salt, version }`. The `salt` drives a deterministic per-question option-letter shuffle so a refresh mid-session keeps the same letter order. Starting a New Session generates a new salt so letters reshuffle between sessions, defeating "the answer is always B" memorization. Closing the tab loses session state. Mastery and theme live in `localStorage` and survive.
+
+- **Per-session option shuffling.** Options A/B/C/D are presented in a permutation derived from `mulberry32(hash(qid + salt))`. The keyed answer letter in `questions.json` is the original markdown letter; the app maps display letter → original letter for grading. Answer-card headline shows the display letter the user actually saw. This was introduced because the question generator concentrated correct answers in the B slot at 65-80% rates.
 - **First launch** auto-starts a session with all 120 questions. The picker is only shown when the user clicks `New session` or `Start New Session`. To drill one set, use the `Set 1 only` / `Set 2 only` chip in the picker.
 
 ## When adding new questions

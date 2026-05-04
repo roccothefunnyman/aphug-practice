@@ -46,19 +46,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "National-scale data accurately reflects local conditions"
+          "text": "National-scale averages accurately reflect conditions in individual counties"
         },
         {
           "letter": "B",
-          "text": "Patterns visible at one scale of analysis may obscure variation at another scale"
+          "text": "Patterns at one scale of analysis can hide variation at another scale"
         },
         {
           "letter": "C",
-          "text": "The United States has uniformly high obesity rates"
+          "text": "Obesity rates are uniformly high across all U.S. counties"
         },
         {
           "letter": "D",
-          "text": "Choropleth maps are unreliable at the state scale"
+          "text": "County-level health data is generally less reliable than state data"
         }
       ],
       "correct_letters": [
@@ -81,19 +81,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "National turnout is the most accurate measure of civic engagement"
+          "text": "National turnout figures are the most accurate measure of overall civic engagement"
         },
         {
           "letter": "B",
-          "text": "Turnout patterns at smaller scales may diverge significantly from larger-scale aggregates"
+          "text": "Smaller-scale turnout can diverge sharply from larger-scale aggregates"
         },
         {
           "letter": "C",
-          "text": "Urban voters consistently turn out at higher rates than rural voters"
+          "text": "Urban voters consistently turn out at higher rates than suburban or rural voters"
         },
         {
           "letter": "D",
-          "text": "State-level data is always higher than national-level data"
+          "text": "State-level turnout always exceeds the corresponding national-level turnout"
         }
       ],
       "correct_letters": [
@@ -116,19 +116,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Cannot represent the entire globe on a flat surface"
+          "text": "Cannot represent the entire surface of the globe on a single flat sheet"
         },
         {
           "letter": "B",
-          "text": "Distorts the size of landmasses, making areas near the poles appear far larger than they actually are"
+          "text": "Distorts landmass size, making polar areas appear far larger than they are"
         },
         {
           "letter": "C",
-          "text": "Fails to preserve compass direction, making it unsuitable for sailors"
+          "text": "Fails to preserve compass direction, which makes it unreliable for navigation"
         },
         {
           "letter": "D",
-          "text": "Uses a polar perspective that disorients most readers"
+          "text": "Uses a polar-centered perspective that disorients most general-purpose readers"
         }
       ],
       "correct_letters": [
@@ -151,19 +151,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Mercator, because it preserves direction"
+          "text": "Mercator, because it preserves compass direction across the entire map"
         },
         {
           "letter": "B",
-          "text": "Robinson, because it offers a compromise between shape and area"
+          "text": "Robinson, because it offers a visual compromise between shape and area"
         },
         {
           "letter": "C",
-          "text": "An equal-area projection such as Gall-Peters, because it preserves the relative size of landmasses"
+          "text": "An equal-area projection like Gall-Peters, because it preserves landmass size"
         },
         {
           "letter": "D",
-          "text": "A polar azimuthal projection, because it centers on a specific point"
+          "text": "A polar azimuthal projection, because it centers the map on a single chosen point"
         }
       ],
       "correct_letters": [
@@ -186,7 +186,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Remote sensing only"
+          "text": "Remote sensing alone, without integration of other spatial data layers"
         },
         {
           "letter": "B",
@@ -194,11 +194,11 @@
         },
         {
           "letter": "C",
-          "text": "Global Positioning System (GPS) tracking"
+          "text": "Global Positioning System (GPS) tracking of property and vegetation points"
         },
         {
           "letter": "D",
-          "text": "Cartographic generalization"
+          "text": "Cartographic generalization of multiple municipal map sources"
         }
       ],
       "correct_letters": [
@@ -221,19 +221,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Time-space convergence"
+          "text": "Time-space convergence between the shop and nearby neighborhoods"
         },
         {
           "letter": "B",
-          "text": "Cultural diffusion"
+          "text": "Hierarchical diffusion of consumer preferences across the town"
         },
         {
           "letter": "C",
-          "text": "The friction of distance, which produces the observed distance decay effect on customer interaction"
+          "text": "The friction of distance, producing a distance decay effect on customer interaction"
         },
         {
           "letter": "D",
-          "text": "Globalization"
+          "text": "Globalization of the local consumer goods market"
         }
       ],
       "correct_letters": [
@@ -256,19 +256,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A formal region with clearly defined political boundaries"
+          "text": "A formal region with legally defined political and administrative boundaries"
         },
         {
           "letter": "B",
-          "text": "A functional region organized around a central node"
+          "text": "A functional region organized around a single administrative or commercial node"
         },
         {
           "letter": "C",
-          "text": "A perceptual (vernacular) region defined by shared cultural characteristics and informal recognition"
+          "text": "A perceptual (vernacular) region defined by shared cultural identity and informal recognition"
         },
         {
           "letter": "D",
-          "text": "A microregion based on a single demographic variable"
+          "text": "A formal region defined by a single quantifiable demographic variable"
         }
       ],
       "correct_letters": [
@@ -291,7 +291,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Environmental determinism"
+          "text": "Environmental determinism shaping Icelandic agricultural choices"
         },
         {
           "letter": "B",
@@ -299,11 +299,11 @@
         },
         {
           "letter": "C",
-          "text": "Pure cultural ecology"
+          "text": "Cultural ecology, focusing on adaptation to existing climate conditions"
         },
         {
           "letter": "D",
-          "text": "Sustainability for its own sake"
+          "text": "Sustainable agriculture practices unrelated to climate constraints"
         }
       ],
       "correct_letters": [
@@ -326,19 +326,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Aggregated data at larger scales can mask significant variation at smaller scales"
+          "text": "Aggregated data at larger scales can hide variation at smaller scales"
         },
         {
           "letter": "B",
-          "text": "Metropolitan data is always less reliable than national data"
+          "text": "Metropolitan-level income data is generally less reliable than national-level data"
         },
         {
           "letter": "C",
-          "text": "Income distribution is uniform across scales"
+          "text": "Median household income is distributed uniformly across geographic scales"
         },
         {
           "letter": "D",
-          "text": "Median income increases as scale becomes more local"
+          "text": "Median household income tends to rise as the scale of analysis becomes more local"
         }
       ],
       "correct_letters": [
@@ -466,19 +466,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Policies should only be designed at the local scale"
+          "text": "National employment policies should be designed exclusively at the local scale"
         },
         {
           "letter": "B",
-          "text": "National-scale interventions can produce uneven outcomes when applied across regions with different local conditions"
+          "text": "National-scale interventions can produce uneven outcomes across regions with different local conditions"
         },
         {
           "letter": "C",
-          "text": "Local conditions are irrelevant to national outcomes"
+          "text": "Local economic conditions are largely irrelevant to national policy outcomes"
         },
         {
           "letter": "D",
-          "text": "Federal governments cannot effectively address economic problems"
+          "text": "Federal governments cannot effectively address regional economic problems"
         }
       ],
       "correct_letters": [
@@ -571,7 +571,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Mandatory family planning education in public schools"
+          "text": "Mandatory national family planning education curriculum in public schools"
         },
         {
           "letter": "B",
@@ -579,11 +579,11 @@
         },
         {
           "letter": "C",
-          "text": "A national one-child limit"
+          "text": "A national one-child limit enforced through fines and housing penalties"
         },
         {
           "letter": "D",
-          "text": "Increased public funding for contraception access"
+          "text": "Substantially increased public funding for contraception access and clinics"
         }
       ],
       "correct_letters": [
@@ -746,19 +746,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The replacement of an Indigenous language by a dominant colonial language"
+          "text": "The full replacement of an Indigenous language by a dominant colonial language over time"
         },
         {
           "letter": "B",
-          "text": "The blending of two or more languages into a stable new language that becomes the native tongue of a community"
+          "text": "The blending of two or more languages into a stable new language with native speakers"
         },
         {
           "letter": "C",
-          "text": "The temporary mixing of languages by traders, with no native speakers"
+          "text": "The temporary mixing of languages by traders or laborers, with no native speaker community"
         },
         {
           "letter": "D",
-          "text": "The standardization of dialects within a single language"
+          "text": "The standardization of regional dialects within a single established national language"
         }
       ],
       "correct_letters": [
@@ -851,19 +851,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Universalizing religions are older than ethnic religions"
+          "text": "Universalizing religions are typically older than the major ethnic religions"
         },
         {
           "letter": "B",
-          "text": "Universalizing religions actively seek converts globally, while ethnic religions are typically tied to a specific people or place"
+          "text": "Universalizing religions actively seek converts globally, while ethnic religions are tied to a specific people or place"
         },
         {
           "letter": "C",
-          "text": "Ethnic religions have more adherents than universalizing religions"
+          "text": "Ethnic religions generally have more global adherents than universalizing religions"
         },
         {
           "letter": "D",
-          "text": "Universalizing religions never have sacred texts"
+          "text": "Universalizing religions rarely produce written sacred texts or scripture"
         }
       ],
       "correct_letters": [
@@ -921,19 +921,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "It is the most spoken native language in the world"
+          "text": "It currently has the largest number of native speakers of any language in the world"
         },
         {
           "letter": "B",
-          "text": "Historical patterns of British colonization and U.S. economic and cultural influence have spread it widely as a second language"
+          "text": "British colonization and U.S. economic and cultural influence spread it widely as a second language"
         },
         {
           "letter": "C",
-          "text": "It is the easiest language in the world to learn"
+          "text": "Its grammar and pronunciation are widely considered the easiest in the world to learn"
         },
         {
           "letter": "D",
-          "text": "The United Nations declared it the official global language"
+          "text": "The United Nations formally designated it the single official global working language"
         }
       ],
       "correct_letters": [
@@ -956,19 +956,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sequent occupance only"
+          "text": "An example of sequent occupance by successive cultural groups"
         },
         {
           "letter": "B",
-          "text": "Cultural landscape that reflects the layered history of the community"
+          "text": "A cultural landscape that reflects the layered history of the community"
         },
         {
           "letter": "C",
-          "text": "Vernacular region"
+          "text": "A vernacular region defined by perceived shared cultural identity"
         },
         {
           "letter": "D",
-          "text": "Functional region"
+          "text": "A functional region organized around the central town square"
         }
       ],
       "correct_letters": [
@@ -991,19 +991,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "It controls a large territory across multiple continents"
+          "text": "It controls a large overseas territory spanning several continents and oceans"
         },
         {
           "letter": "B",
-          "text": "The boundaries of the state largely correspond with a population that shares a common cultural identity, language tradition, and history"
+          "text": "Its state boundaries largely correspond with a population sharing common identity, language, and history"
         },
         {
           "letter": "C",
-          "text": "It has no immigrants at all"
+          "text": "Its population is composed entirely of native-born citizens with no recent immigrants"
         },
         {
           "letter": "D",
-          "text": "It is part of a larger supranational federation"
+          "text": "It is governed as a constituent member of a larger supranational federal union"
         }
       ],
       "correct_letters": [
@@ -1026,19 +1026,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A boundary marked by physical features such as mountains or rivers"
+          "text": "A political boundary marked by major physical features such as mountains or rivers"
         },
         {
           "letter": "B",
-          "text": "A region caught between the political and cultural pressures of two or more competing external powers, often experiencing fragmentation and conflict"
+          "text": "A region caught between competing external powers, often experiencing fragmentation and conflict"
         },
         {
           "letter": "C",
-          "text": "An area where two cultures blend peacefully over time"
+          "text": "A cultural transition zone where two or more major cultures blend peacefully over time"
         },
         {
           "letter": "D",
-          "text": "A self-governing region within a federal state"
+          "text": "A self-governing constituent region within a larger federal or unitary state"
         }
       ],
       "correct_letters": [
@@ -1096,19 +1096,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Drawing district boundaries to spread a target group thinly across many districts so that they cannot win any"
+          "text": "Drawing district boundaries to spread a target group of voters thinly across many districts so they cannot win any"
         },
         {
           "letter": "B",
-          "text": "Concentrating a target group of voters into a small number of districts to limit their overall influence in the legislature"
+          "text": "Concentrating a target group of voters into a few districts to limit their overall legislative influence"
         },
         {
           "letter": "C",
-          "text": "Combining several small districts into a single larger one for administrative efficiency"
+          "text": "Combining several small districts into a single larger one to consolidate administrative authority and reduce election costs"
         },
         {
           "letter": "D",
-          "text": "Aligning district boundaries with existing county lines"
+          "text": "Aligning district boundaries with existing county lines to preserve traditional units of local government"
         }
       ],
       "correct_letters": [
@@ -1131,7 +1131,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Power is concentrated in a single central government with limited regional authority"
+          "text": "Power is concentrated in a single central government, with regional units serving mainly administrative functions"
         },
         {
           "letter": "B",
@@ -1139,11 +1139,11 @@
         },
         {
           "letter": "C",
-          "text": "Power is held entirely by local governments with no national oversight"
+          "text": "Power is held by local governments under a confederal arrangement, with the central authority weak or symbolic"
         },
         {
           "letter": "D",
-          "text": "Power rotates between competing political parties on a fixed schedule"
+          "text": "Power rotates among the largest political parties on a fixed constitutional schedule set by national law"
         }
       ],
       "correct_letters": [
@@ -1151,7 +1151,7 @@
       ],
       "answer": "B",
       "answer_headline": "Power constitutionally divided between central and subnational governments",
-      "explanation_md": "Federal states: U.S., Germany, Brazil, India, Canada, Australia. Unitary states: France, Japan, China.",
+      "explanation_md": "Federal states: U.S., Germany, Brazil, India, Canada, Australia. Option A describes a unitary state (France, Japan, China). Option C describes a confederation, in which the center is weak (e.g., the early U.S. Articles of Confederation).",
       "topic_code": "4.7",
       "skill_code": "1.A"
     },
@@ -1236,19 +1236,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Surrender complete national sovereignty to a central EU government"
+          "text": "Surrender complete national sovereignty to a central EU government in Brussels with binding authority over all domestic affairs"
         },
         {
           "letter": "B",
-          "text": "Cede certain economic and regulatory powers to a supranational organization in exchange for benefits like a common market and shared institutions"
+          "text": "Cede certain economic and regulatory powers to a supranational organization in exchange for common-market access"
         },
         {
           "letter": "C",
-          "text": "Adopt an entirely new national language and legal system"
+          "text": "Adopt an entirely new national language and legal system based on the European Court of Justice's framework"
         },
         {
           "letter": "D",
-          "text": "Dissolve its national government in favor of EU rule"
+          "text": "Dissolve its national government and place all administrative functions under direct EU rule from Brussels"
         }
       ],
       "correct_letters": [
@@ -1306,19 +1306,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Population pressure encourages agricultural innovation and intensification, allowing food production to expand"
+          "text": "Population pressure encourages agricultural innovation and intensification, expanding food output"
         },
         {
           "letter": "B",
-          "text": "Food production grows geometrically while population grows arithmetically"
+          "text": "Food production grows geometrically while population grows arithmetically, generating long-term agricultural surplus"
         },
         {
           "letter": "C",
-          "text": "Famine is the only natural check on population"
+          "text": "Famine remains the only natural check on population, since technology cannot meaningfully expand food supply"
         },
         {
           "letter": "D",
-          "text": "Industrialization always reduces agricultural output"
+          "text": "Industrialization eventually reduces total agricultural output as labor migrates to urban manufacturing jobs"
         }
       ],
       "correct_letters": [
@@ -1341,19 +1341,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Extensive grain farming"
+          "text": "Extensive grain farming, located on cheaper land farther from the central market"
         },
         {
           "letter": "B",
-          "text": "Ranching"
+          "text": "Ranching, placed on the outermost ring where land is least expensive"
         },
         {
           "letter": "C",
-          "text": "Forestry (in the original model, due to weight and transport cost)"
+          "text": "Forestry, placed in the second ring due to wood's weight and transport cost"
         },
         {
           "letter": "D",
-          "text": "Intensive horticulture and dairying (perishable, high-value goods)"
+          "text": "Intensive horticulture and dairying, since these goods are perishable and high-value"
         }
       ],
       "correct_letters": [
@@ -1376,19 +1376,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Organic farming and traditional seed varieties"
+          "text": "The expansion of organic farming using traditional, locally adapted seed varieties"
         },
         {
           "letter": "B",
-          "text": "The introduction of high-yielding seed varieties, synthetic fertilizers, pesticides, and irrigation technologies, particularly in parts of Asia and Latin America"
+          "text": "High-yielding seed varieties, synthetic fertilizers, pesticides, and irrigation, mainly in Asia and Latin America"
         },
         {
           "letter": "C",
-          "text": "Reducing global meat consumption"
+          "text": "Coordinated international efforts to reduce global meat consumption and shift to plant-based diets"
         },
         {
           "letter": "D",
-          "text": "Replacing commercial farms with subsistence agriculture"
+          "text": "The deliberate replacement of large commercial farms with smallholder subsistence agriculture"
         }
       ],
       "correct_letters": [
@@ -1411,19 +1411,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A diversified post-industrial economy"
+          "text": "A diversified post-industrial economy with broad export categories"
         },
         {
           "letter": "B",
-          "text": "Commodity dependency, where a national economy is heavily reliant on a small number of primary-sector exports"
+          "text": "Commodity dependency on a small number of primary-sector exports"
         },
         {
           "letter": "C",
-          "text": "High levels of vertical integration in manufacturing"
+          "text": "High levels of vertical integration across the country's manufacturing sector"
         },
         {
           "letter": "D",
-          "text": "Strong service-sector specialization"
+          "text": "Strong service-sector specialization driving most national export earnings"
         }
       ],
       "correct_letters": [
@@ -1481,19 +1481,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Cool temperate latitudes with sandy soils"
+          "text": "Cool temperate latitudes with sandy, well-drained soils and short growing seasons"
         },
         {
           "letter": "B",
-          "text": "Tropical and subtropical highlands with relatively consistent rainfall"
+          "text": "Tropical and subtropical highlands with consistent rainfall"
         },
         {
           "letter": "C",
-          "text": "Arid regions dependent on heavy irrigation"
+          "text": "Arid regions dependent on heavy mechanized irrigation systems"
         },
         {
           "letter": "D",
-          "text": "Boreal forests"
+          "text": "Boreal forest zones with cold winters and acidic soils"
         }
       ],
       "correct_letters": [
@@ -1516,19 +1516,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Choropleth map shading each county by percentage of land in corn"
+          "text": "Choropleth map shading each county by percent of land in corn"
         },
         {
           "letter": "B",
-          "text": "Isoline map of soil pH"
+          "text": "Isoline map of soil pH variation across the agricultural region"
         },
         {
           "letter": "C",
-          "text": "Topographic map"
+          "text": "Topographic map showing elevation and major drainage features"
         },
         {
           "letter": "D",
-          "text": "Cartogram of national rainfall"
+          "text": "Cartogram resizing each state by total annual rainfall"
         }
       ],
       "correct_letters": [
@@ -1551,19 +1551,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The rise of subsistence farming in North America"
+          "text": "The rise of subsistence farming in North America driven by local food demand"
         },
         {
           "letter": "B",
-          "text": "The globalization of agriculture, with production shifting between hemispheres and goods shipped via fast, refrigerated supply chains"
+          "text": "The globalization of agriculture, with production shifting between hemispheres via refrigerated supply chains"
         },
         {
           "letter": "C",
-          "text": "The decline of commercial agriculture"
+          "text": "The steady decline of commercial agriculture across the United States and Canada"
         },
         {
           "letter": "D",
-          "text": "The end of comparative advantage in agriculture"
+          "text": "The end of comparative advantage as a force shaping global agricultural trade"
         }
       ],
       "correct_letters": [
@@ -1586,19 +1586,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The first domestication of plants and animals about 10,000 years ago"
+          "text": "The first domestication of plants and animals in the Fertile Crescent about 10,000 years ago"
         },
         {
           "letter": "B",
-          "text": "Mechanization, improved crop rotation, and selective breeding tied to industrialization in 18th- and 19th-century Europe"
+          "text": "Mechanization, improved crop rotation, and selective breeding in 18th- and 19th-century Europe"
         },
         {
           "letter": "C",
-          "text": "The introduction of high-yielding rice varieties in 20th-century Asia"
+          "text": "The introduction of high-yielding rice and wheat varieties across mid-20th-century Asia"
         },
         {
           "letter": "D",
-          "text": "The shift to organic and local-food movements in the 21st century"
+          "text": "The shift toward organic farming and local-food movements across the early 21st century"
         }
       ],
       "correct_letters": [
@@ -1621,19 +1621,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The minimum number of customers needed to make a business viable"
+          "text": "The minimum number of customers needed to make a business viable in a settlement"
         },
         {
           "letter": "B",
-          "text": "The maximum distance consumers are willing to travel to obtain that good or service"
+          "text": "The maximum distance consumers will travel to obtain that good or service"
         },
         {
           "letter": "C",
-          "text": "The total population of a settlement"
+          "text": "The total resident population of a settlement that supports central place functions"
         },
         {
           "letter": "D",
-          "text": "The hexagonal shape of market areas"
+          "text": "The hexagonal shape of overlapping market areas in Christaller's lattice"
         }
       ],
       "correct_letters": [
@@ -1656,19 +1656,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Are highest in the outermost suburban ring"
+          "text": "Are highest in the outermost suburban ring, where newer housing dominates"
         },
         {
           "letter": "B",
-          "text": "Are highest in or near the central business district and decline outward, with some local variation"
+          "text": "Are highest in or near the central business district and decline outward"
         },
         {
           "letter": "C",
-          "text": "Are uniform across all zones"
+          "text": "Are roughly uniform across all concentric zones from the CBD to the periphery"
         },
         {
           "letter": "D",
-          "text": "Increase steadily from the city center to the urban edge"
+          "text": "Rise steadily from the central business district outward toward the urban edge"
         }
       ],
       "correct_letters": [
@@ -1726,19 +1726,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A single concentric ring pattern around a CBD with no other variation"
+          "text": "A single concentric ring pattern around a CBD, with little variation in residential land use"
         },
         {
           "letter": "B",
-          "text": "A commercial spine extending from the CBD into a wealthy elite residential sector, surrounded by zones of decreasing socioeconomic status, with disamenity zones at the periphery"
+          "text": "A commercial spine extending from the CBD into a wealthy elite sector, with disamenity zones at the periphery"
         },
         {
           "letter": "C",
-          "text": "Multiple equally weighted nuclei with no dominant center"
+          "text": "Multiple equally weighted nuclei with no dominant center, similar to the Harris-Ullman model"
         },
         {
           "letter": "D",
-          "text": "A purely sectoral pattern with no CBD at all"
+          "text": "A purely sectoral pattern with no central business district, dominated by industrial corridors"
         }
       ],
       "correct_letters": [
@@ -1761,19 +1761,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Suburbanization"
+          "text": "Suburbanization of municipal services to outlying areas"
         },
         {
           "letter": "B",
-          "text": "Urban sustainability and reducing the urban environmental footprint"
+          "text": "Urban sustainability and reducing the city's environmental footprint"
         },
         {
           "letter": "C",
-          "text": "Counter-urbanization"
+          "text": "Counter-urbanization through migration out of the urban core"
         },
         {
           "letter": "D",
-          "text": "Gentrification"
+          "text": "Gentrification of older municipal property and infrastructure"
         }
       ],
       "correct_letters": [
@@ -1796,19 +1796,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "HDI measures only economic output"
+          "text": "HDI is a single-dimension index that measures only national economic output"
         },
         {
           "letter": "B",
-          "text": "HDI combines health, education, and income indicators into a single composite measure of development"
+          "text": "HDI combines health, education, and income into a composite development measure"
         },
         {
           "letter": "C",
-          "text": "HDI relies entirely on GDP per capita"
+          "text": "HDI relies entirely on GDP per capita and excludes social indicators of well-being"
         },
         {
           "letter": "D",
-          "text": "HDI measures political freedom"
+          "text": "HDI is primarily a measure of political freedom and civil liberties within a country"
         }
       ],
       "correct_letters": [
@@ -1831,7 +1831,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country P likely has a higher GII than Country Q"
+          "text": "Country P likely has a higher GII, indicating greater gender inequality there"
         },
         {
           "letter": "B",
@@ -1839,11 +1839,11 @@
         },
         {
           "letter": "C",
-          "text": "GII cannot be inferred from these indicators"
+          "text": "GII cannot reasonably be inferred from the indicators shown in this table"
         },
         {
           "letter": "D",
-          "text": "Both countries likely have identical GII values"
+          "text": "Both countries likely have nearly identical GII values despite the indicator gaps"
         }
       ],
       "correct_letters": [
@@ -1866,19 +1866,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Subsistence agriculture and limited technology"
+          "text": "Persistent subsistence agriculture and very limited adoption of new technology"
         },
         {
           "letter": "B",
-          "text": "Rapid growth in a few leading industrial sectors, expansion of manufacturing, and rising investment"
+          "text": "Rapid growth in leading industrial sectors and rising investment in manufacturing"
         },
         {
           "letter": "C",
-          "text": "Mass consumption of consumer goods"
+          "text": "Widespread mass consumption of consumer goods across most of the population"
         },
         {
           "letter": "D",
-          "text": "Service-sector dominance and post-industrial structures"
+          "text": "Service-sector dominance and the emergence of a post-industrial economic structure"
         }
       ],
       "correct_letters": [
@@ -1901,19 +1901,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Provide raw materials and cheap labor to core countries only"
+          "text": "Provide raw materials and cheap labor exclusively to core countries within the world-system"
         },
         {
           "letter": "B",
-          "text": "Occupy an intermediate position, exhibiting some characteristics of both core and periphery"
+          "text": "Occupy an intermediate position with characteristics of both core and periphery"
         },
         {
           "letter": "C",
-          "text": "Sit entirely outside the global capitalist system"
+          "text": "Sit entirely outside the global capitalist system and operate as autarkic economies"
         },
         {
           "letter": "D",
-          "text": "Are defined exclusively by their location in the Global North"
+          "text": "Are defined strictly by their geographic location in the Global North hemisphere"
         }
       ],
       "correct_letters": [
@@ -1936,7 +1936,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Wages, taxes, and rent only"
+          "text": "Corporate taxes, executive wages, and commercial rent on industrial sites"
         },
         {
           "letter": "B",
@@ -1944,11 +1944,11 @@
         },
         {
           "letter": "C",
-          "text": "Marketing, advertising, and distribution"
+          "text": "Marketing, advertising, and product distribution channel costs"
         },
         {
           "letter": "D",
-          "text": "Land, water, and air pollution mitigation"
+          "text": "Land acquisition, water access, and air pollution mitigation expenses"
         }
       ],
       "correct_letters": [
@@ -1975,15 +1975,15 @@
         },
         {
           "letter": "B",
-          "text": "The Second Agricultural Revolution"
+          "text": "The Second Agricultural Revolution reshaping rural employment patterns"
         },
         {
           "letter": "C",
-          "text": "Re-agrarianization"
+          "text": "Re-agrarianization driven by a return to primary-sector employment"
         },
         {
           "letter": "D",
-          "text": "Demographic transition"
+          "text": "Demographic transition from high to low birth and death rates"
         }
       ],
       "correct_letters": [
@@ -2006,19 +2006,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A loan agreement requiring resource extraction"
+          "text": "A loan agreement that requires the borrowing country to expand resource extraction"
         },
         {
           "letter": "B",
-          "text": "An arrangement where part of a country's foreign debt is forgiven in exchange for commitments to environmental conservation"
+          "text": "An arrangement where part of a country's foreign debt is forgiven for conservation commitments"
         },
         {
           "letter": "C",
-          "text": "A type of foreign direct investment in heavy industry"
+          "text": "A form of foreign direct investment focused on heavy industry and resource processing"
         },
         {
           "letter": "D",
-          "text": "A trade tariff on natural resources"
+          "text": "A trade tariff applied specifically to imports of natural resources and primary commodities"
         }
       ],
       "correct_letters": [
@@ -2041,7 +2041,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Uniform development across the state"
+          "text": "Uniform development distributed evenly across the state's territory"
         },
         {
           "letter": "B",
@@ -2049,11 +2049,11 @@
         },
         {
           "letter": "C",
-          "text": "The end of core-periphery dynamics"
+          "text": "The end of core-periphery dynamics within the country"
         },
         {
           "letter": "D",
-          "text": "A primate city distribution only"
+          "text": "A primate city distribution with no other significant urban centers"
         }
       ],
       "correct_letters": [
@@ -2150,15 +2150,15 @@
         },
         {
           "letter": "B",
-          "text": "That bilingualism declines as scale becomes more local"
+          "text": "That bilingualism rates fall steadily as the unit of analysis becomes more local"
         },
         {
           "letter": "C",
-          "text": "That national-level data is always more accurate than local data"
+          "text": "That coarser national-level data is typically more reliable than fine-grained local data"
         },
         {
           "letter": "D",
-          "text": "That cartographic scale and analytical scale produce the same results"
+          "text": "That cartographic scale and scale of analysis necessarily produce identical results"
         }
       ],
       "correct_letters": [
@@ -2251,11 +2251,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "The national-level data is incorrect."
+          "text": "The national-level dataset must contain measurement errors that should be corrected."
         },
         {
           "letter": "B",
-          "text": "Obesity rates are uniform across the country."
+          "text": "Obesity rates are essentially uniform across the country once outliers are excluded."
         },
         {
           "letter": "C",
@@ -2263,7 +2263,7 @@
         },
         {
           "letter": "D",
-          "text": "Local data should always replace national data in policy decisions."
+          "text": "Local data should always replace national data when setting public health policy."
         }
       ],
       "correct_letters": [
@@ -2286,19 +2286,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "A national chain opens stores in every state regardless of distance from headquarters."
+          "text": "A national chain opens new stores in every state regardless of distance from corporate headquarters."
         },
         {
           "letter": "B",
-          "text": "The frequency of phone calls between two cities decreases as the distance between them increases."
+          "text": "The number of phone calls between two cities falls as the distance between them grows."
         },
         {
           "letter": "C",
-          "text": "A border wall reduces migration between two countries."
+          "text": "A new border wall sharply reduces unauthorized migration between two adjoining countries."
         },
         {
           "letter": "D",
-          "text": "Time zones change every 15 degrees of longitude."
+          "text": "Standard time zones change every 15 degrees of longitude across the surface of the globe."
         }
       ],
       "correct_letters": [
@@ -2461,11 +2461,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "The national-level analysis is the most accurate."
+          "text": "The national-level analysis is the most accurate of the three for explaining voting behavior."
         },
         {
           "letter": "B",
-          "text": "Race and ethnicity have no effect on voting behavior."
+          "text": "Race and ethnicity have no measurable effect on voting behavior at any scale of analysis."
         },
         {
           "letter": "C",
@@ -2473,7 +2473,7 @@
         },
         {
           "letter": "D",
-          "text": "Neighborhood-level studies should replace state-level studies."
+          "text": "Neighborhood-level studies of age and income should replace state-level studies of race."
         }
       ],
       "correct_letters": [
@@ -2496,19 +2496,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The country is heavily urbanized across its entire territory."
+          "text": "The country is heavily urbanized across nearly all of its national territory."
         },
         {
           "letter": "B",
-          "text": "Most of the country's land is unsuitable for farming, concentrating the population on limited arable land."
+          "text": "Most land is unsuitable for farming, so the population concentrates on the limited arable areas."
         },
         {
           "letter": "C",
-          "text": "The country has no agricultural sector."
+          "text": "The country has only a very minor agricultural sector relative to its overall economy."
         },
         {
           "letter": "D",
-          "text": "The country has both a small population and abundant farmland."
+          "text": "The country has both a small total population and abundant high-quality farmland to spare."
         }
       ],
       "correct_letters": [
@@ -2566,11 +2566,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Its absolute latitude and longitude"
+          "text": "Its absolute latitude and longitude as plotted on a global coordinate grid"
         },
         {
           "letter": "B",
-          "text": "The physical characteristics of the land it occupies"
+          "text": "The physical characteristics of the specific land that it occupies"
         },
         {
           "letter": "C",
@@ -2578,7 +2578,7 @@
         },
         {
           "letter": "D",
-          "text": "The age of its built environment"
+          "text": "The age and architectural style of its core built environment"
         }
       ],
       "correct_letters": [
@@ -2601,19 +2601,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Two unrelated concepts that happen to share the word \"scale\""
+          "text": "Two largely unrelated cartographic ideas that happen to share the same English word \"scale\""
         },
         {
           "letter": "B",
-          "text": "Cartographic scale (map representation) and scale of analysis (level at which a phenomenon is studied)"
+          "text": "Cartographic scale (map representation) versus scale of analysis (level of study)"
         },
         {
           "letter": "C",
-          "text": "Local and global mapping conventions"
+          "text": "Conventions for local-area maps versus conventions for global-area maps"
         },
         {
           "letter": "D",
-          "text": "Quantitative and qualitative geography"
+          "text": "The divide between quantitative and qualitative methods in modern geography"
         }
       ],
       "correct_letters": [
@@ -2706,19 +2706,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country P has a higher youth dependency ratio and likely faces pressure to expand schools and pediatric care."
+          "text": "Country P has a higher youth dependency ratio and likely strains schools and pediatric services."
         },
         {
           "letter": "B",
-          "text": "Country Q has a younger population overall than Country P."
+          "text": "Country Q has a structurally younger population overall than Country P does at the moment."
         },
         {
           "letter": "C",
-          "text": "Both countries have the same dependency burden because both add to roughly 100%."
+          "text": "Both countries carry the same overall dependency burden since the columns add to roughly 100%."
         },
         {
           "letter": "D",
-          "text": "Country P is in Stage 4 of the demographic transition."
+          "text": "Country P is most likely in Stage 4 of the demographic transition rather than in Stage 2."
         }
       ],
       "correct_letters": [
@@ -2741,19 +2741,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Most migrants travel very long distances internationally."
+          "text": "Most migrants travel very long distances across international borders to reach a destination."
         },
         {
           "letter": "B",
-          "text": "Most migrants move short distances, and long-distance migrants tend to head to major economic centers."
+          "text": "Most migrants move short distances, and long-distance movers head to major economic centers."
         },
         {
           "letter": "C",
-          "text": "Migration is random and not patterned by economic factors."
+          "text": "Migration flows are essentially random and are not patterned by economic or geographic factors."
         },
         {
           "letter": "D",
-          "text": "Women migrate only as part of family units, never independently."
+          "text": "Women migrate only as part of larger family units and rarely as independent labor migrants."
         }
       ],
       "correct_letters": [
@@ -2811,19 +2811,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "National-level demographic data can mask significant regional variation in population structure."
+          "text": "National data can mask significant regional variation in population structure."
         },
         {
           "letter": "B",
-          "text": "Country R is uniformly in Stage 4."
+          "text": "Country R is essentially uniform across its territory and sits squarely in Stage 4."
         },
         {
           "letter": "C",
-          "text": "Stage 2 and Stage 5 cannot exist simultaneously within one country."
+          "text": "Stage 2 and Stage 5 demographic profiles cannot coexist simultaneously within one country."
         },
         {
           "letter": "D",
-          "text": "Population pyramids are not useful at the regional scale."
+          "text": "Population pyramids lose most of their analytical value when applied at the regional scale."
         }
       ],
       "correct_letters": [
@@ -3021,7 +3021,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sacred site recognized by international treaty"
+          "text": "Sacred site formally recognized by an international treaty"
         },
         {
           "letter": "B",
@@ -3029,11 +3029,11 @@
         },
         {
           "letter": "C",
-          "text": "Functional region boundary marker"
+          "text": "Boundary marker designating the edge of a formal functional region"
         },
         {
           "letter": "D",
-          "text": "Sign of hierarchical religious diffusion"
+          "text": "Visible sign of hierarchical religious diffusion from a distant hearth"
         }
       ],
       "correct_letters": [
@@ -3406,19 +3406,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The fact that some cities are larger than others"
+          "text": "The fact that some cities are larger than others, producing differently sized market areas"
         },
         {
           "letter": "B",
-          "text": "Refrigerated transport and global supply chains, which weaken the relationship between distance from market and land use"
+          "text": "Refrigerated transport and global supply chains, which weaken the link between distance from market and land use"
         },
         {
           "letter": "C",
-          "text": "The continued existence of subsistence farming in some regions"
+          "text": "The continued existence of subsistence farming in regions outside the market economy"
         },
         {
           "letter": "D",
-          "text": "The use of GPS in tractors"
+          "text": "The use of GPS-guided tractors and precision agriculture on commercial farms"
         }
       ],
       "correct_letters": [
@@ -3441,19 +3441,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Agricultural innovation would always keep pace with population growth."
+          "text": "Agricultural innovation would always keep pace with population growth, preventing any food shortage."
         },
         {
           "letter": "B",
-          "text": "Population grows exponentially while food supply grows arithmetically, leading to crisis unless population is checked."
+          "text": "Population grows exponentially while food supply grows arithmetically, producing crisis unless population is checked."
         },
         {
           "letter": "C",
-          "text": "Population pressure causes societies to intensify agriculture and innovate."
+          "text": "Population pressure pushes societies to intensify agriculture and innovate their way out of scarcity."
         },
         {
           "letter": "D",
-          "text": "Cities are the primary driver of food shortages."
+          "text": "Cities, by drawing labor away from farms, are the primary driver of national food shortages."
         }
       ],
       "correct_letters": [
@@ -3476,19 +3476,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Population growth necessarily leads to famine."
+          "text": "Population growth, if left unchecked, necessarily leads to widespread famine and demographic collapse."
         },
         {
           "letter": "B",
-          "text": "Food production caps population growth in all cases."
+          "text": "Food production sets a hard ceiling on population growth in every society and historical period."
         },
         {
           "letter": "C",
-          "text": "Population pressure drives agricultural intensification and innovation, allowing food production to expand to meet need."
+          "text": "Population pressure drives agricultural intensification and innovation, expanding food production to meet need."
         },
         {
           "letter": "D",
-          "text": "Population always declines when resources become scarce."
+          "text": "Population always declines when resources become scarce, returning the system to equilibrium."
         }
       ],
       "correct_letters": [
@@ -3511,19 +3511,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The shift from hunting-gathering to settled agriculture"
+          "text": "The original shift from hunting-gathering to settled agriculture during the Neolithic period"
         },
         {
           "letter": "B",
-          "text": "The introduction of high-yield seed varieties, synthetic fertilizers, and irrigation, especially in parts of Asia and Latin America"
+          "text": "The spread of high-yield seed varieties, synthetic fertilizers, and irrigation across Asia and Latin America"
         },
         {
           "letter": "C",
-          "text": "The collapse of subsistence agriculture worldwide"
+          "text": "The near-total collapse of subsistence agriculture across the developing world over recent decades"
         },
         {
           "letter": "D",
-          "text": "The widespread return to organic farming methods"
+          "text": "A widespread return to organic and small-scale farming methods within wealthier core economies"
         }
       ],
       "correct_letters": [
@@ -3546,19 +3546,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country V exhibits commodity dependency and is more vulnerable to swings in global agricultural prices."
+          "text": "Country V exhibits commodity dependency and is more vulnerable to global agricultural price swings."
         },
         {
           "letter": "B",
-          "text": "Country W has a less diversified export economy than Country V."
+          "text": "Country W has a less diversified export economy than Country V and depends mainly on raw goods."
         },
         {
           "letter": "C",
-          "text": "Both countries are equally exposed to commodity price shocks."
+          "text": "Both countries are equally exposed to commodity price shocks given their export composition."
         },
         {
           "letter": "D",
-          "text": "Country V is in a later stage of economic development than Country W."
+          "text": "Country V is in a later stage of economic development than Country W based on its export mix."
         }
       ],
       "correct_letters": [
@@ -3581,7 +3581,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "The introduction of mechanized tractors"
+          "text": "The introduction of mechanized tractors and steel plows on European farms"
         },
         {
           "letter": "B",
@@ -3589,11 +3589,11 @@
         },
         {
           "letter": "C",
-          "text": "The spread of high-yield rice varieties"
+          "text": "The spread of high-yield rice and wheat varieties across South and East Asia"
         },
         {
           "letter": "D",
-          "text": "The development of factory farming"
+          "text": "The development of large-scale factory farming and confined animal feeding operations"
         }
       ],
       "correct_letters": [
@@ -3616,19 +3616,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Domestication of the first crops"
+          "text": "The original domestication of the first crops in the Fertile Crescent and similar hearths"
         },
         {
           "letter": "B",
-          "text": "Improved farming techniques, crop rotation, and mechanization that increased yields and supported urban industrial workforces"
+          "text": "Improved farming techniques, crop rotation, and mechanization that raised yields and fed urban industrial workforces"
         },
         {
           "letter": "C",
-          "text": "Genetically modified organisms"
+          "text": "The introduction of genetically modified organisms and biotech seeds in modern commercial agriculture"
         },
         {
           "letter": "D",
-          "text": "The collapse of European feudalism caused solely by climate change"
+          "text": "The collapse of European feudalism caused entirely by changing climate patterns in the Middle Ages"
         }
       ],
       "correct_letters": [
@@ -3651,19 +3651,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Commercial agriculture is always more environmentally sustainable."
+          "text": "Commercial agriculture is always more environmentally sustainable than subsistence farming systems."
         },
         {
           "letter": "B",
-          "text": "Commercial agriculture produces primarily for sale on the market, while subsistence agriculture produces primarily for the farmer's household."
+          "text": "Commercial agriculture produces primarily for sale on the market, while subsistence farming feeds the producing household."
         },
         {
           "letter": "C",
-          "text": "Subsistence agriculture uses only modern machinery."
+          "text": "Subsistence agriculture relies on only the most modern machinery and high-input technology packages."
         },
         {
           "letter": "D",
-          "text": "Commercial agriculture occurs only in periphery countries."
+          "text": "Commercial agriculture occurs only in periphery countries with low labor costs and weak land regulation."
         }
       ],
       "correct_letters": [
@@ -3686,19 +3686,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The bid-rent theory and Von Thünen-style logic, where land use intensity falls with distance from market"
+          "text": "The bid-rent theory and Von Thünen-style logic, where land rents fall with distance from market"
         },
         {
           "letter": "B",
-          "text": "A complete breakdown of locational theory in modern economies"
+          "text": "A breakdown of classical locational theory in modern post-industrial economies"
         },
         {
           "letter": "C",
-          "text": "The Boserup hypothesis"
+          "text": "The Boserup hypothesis on agricultural intensification under population pressure"
         },
         {
           "letter": "D",
-          "text": "Wallerstein's world-systems theory"
+          "text": "Wallerstein's world-systems theory of core, semi-periphery, and periphery"
         }
       ],
       "correct_letters": [
@@ -3721,19 +3721,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sectors radiating outward from the CBD along major transportation routes"
+          "text": "Wedge-shaped sectors radiating outward from the CBD along major transportation corridors"
         },
         {
           "letter": "B",
-          "text": "A series of rings around a central business district, with land use changing by ring"
+          "text": "A series of rings around a central business district, with land use changing ring by ring"
         },
         {
           "letter": "C",
-          "text": "Multiple specialized nodes scattered across the urban area"
+          "text": "Multiple specialized nodes scattered across the urban area, each anchoring its own activities"
         },
         {
           "letter": "D",
-          "text": "A spine of elite housing extending out from a colonial-era core"
+          "text": "A spine of elite housing extending out from a colonial-era core, ringed by squatter settlements"
         }
       ],
       "correct_letters": [
@@ -3756,19 +3756,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Cities have no central business district."
+          "text": "Cities have no central business district and grow outward from scattered residential nodes."
         },
         {
           "letter": "B",
-          "text": "Urban land use develops in wedge-shaped sectors that extend outward from the center, often along transport corridors."
+          "text": "Urban land use develops in wedge-shaped sectors extending outward from the center, often along transport corridors."
         },
         {
           "letter": "C",
-          "text": "All cities follow the same single-ring pattern."
+          "text": "All cities follow the same single concentric-ring pattern regardless of transportation."
         },
         {
           "letter": "D",
-          "text": "Industry always locates in the city center."
+          "text": "Industry always locates at the geographic center of the city, displacing residential land use."
         }
       ],
       "correct_letters": [
@@ -3791,19 +3791,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Cities organized around a single dominant center"
+          "text": "Cities organized around a single dominant central business district that drives all growth"
         },
         {
           "letter": "B",
-          "text": "Cities developing around several specialized centers, each attracting compatible activities and repelling incompatible ones"
+          "text": "Cities developing around several specialized nodes, each attracting compatible activities and repelling incompatible ones"
         },
         {
           "letter": "C",
-          "text": "Cities defined by their colonial spine and disamenity sectors"
+          "text": "Cities defined primarily by a colonial-era commercial spine and peripheral disamenity sectors"
         },
         {
           "letter": "D",
-          "text": "Cities where land use is determined entirely by ethnic enclaves"
+          "text": "Cities in which the pattern of land use is determined entirely by the location of ethnic enclaves"
         }
       ],
       "correct_letters": [
@@ -3826,19 +3826,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Concentric rings with no central business district"
+          "text": "Concentric rings of housing radiating outward from a single residential point, with no central business district at the core"
         },
         {
           "letter": "B",
-          "text": "A central CBD with a commercial spine of high-quality housing extending outward, surrounded by zones of decreasing housing quality and disamenity sectors at the periphery"
+          "text": "A central CBD with a commercial spine of high-quality housing, ringed by zones of declining housing quality and disamenity sectors"
         },
         {
           "letter": "C",
-          "text": "Five evenly spaced sectors of identical land use"
+          "text": "Five evenly spaced sectors of identical land use radiating outward from a central colonial plaza at the city's geographic center"
         },
         {
           "letter": "D",
-          "text": "Multiple CBDs of equal size, with no peripheral squatter settlements"
+          "text": "Multiple CBDs of equal size scattered across the metropolitan area, with no peripheral squatter settlements or disamenity zones"
         }
       ],
       "correct_letters": [
@@ -3896,19 +3896,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Labor costs only"
+          "text": "Labor costs alone, with no consideration of transport or material weight"
         },
         {
           "letter": "B",
-          "text": "Transportation costs, labor costs, and agglomeration effects"
+          "text": "Transportation costs, labor costs, and agglomeration effects together"
         },
         {
           "letter": "C",
-          "text": "Environmental impact only"
+          "text": "Environmental impact and pollution control costs at the plant site"
         },
         {
           "letter": "D",
-          "text": "Land costs and tariffs only"
+          "text": "Land acquisition costs and prevailing trade tariffs at the regional border"
         }
       ],
       "correct_letters": [
@@ -3931,19 +3931,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The early stages of Rostow's traditional society"
+          "text": "The early stages of Rostow's traditional society, dominated by subsistence agriculture and barter trade"
         },
         {
           "letter": "B",
-          "text": "Movement through Rostow's stages from traditional society toward high mass consumption, alongside post-industrial economic restructuring"
+          "text": "Movement through Rostow's stages toward high mass consumption, alongside post-industrial restructuring"
         },
         {
           "letter": "C",
-          "text": "A reversal of economic development"
+          "text": "A reversal of economic development as services come to replace stable manufacturing employment"
         },
         {
           "letter": "D",
-          "text": "Wallerstein's definition of a periphery economy"
+          "text": "Wallerstein's definition of a periphery economy locked into raw-material exports and dependent labor"
         }
       ],
       "correct_letters": [
@@ -3966,19 +3966,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Population size"
+          "text": "Population size and the country's total share of world inhabitants"
         },
         {
           "letter": "B",
-          "text": "Their position in global economic relationships, including production, trade, and resource flows"
+          "text": "Their position in global economic relationships, including production, trade, and capital flows"
         },
         {
           "letter": "C",
-          "text": "Climate and physical geography"
+          "text": "Climate, physical geography, and access to natural harbors"
         },
         {
           "letter": "D",
-          "text": "Religious affiliation"
+          "text": "Dominant religious affiliation and shared cultural traditions"
         }
       ],
       "correct_letters": [
@@ -4001,19 +4001,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country A is likely to have the highest HDI score because all three component indicators are highest."
+          "text": "Country A is likely to have the highest HDI score because all three component indicators lead the table."
         },
         {
           "letter": "B",
-          "text": "HDI rankings depend solely on GNI per capita."
+          "text": "HDI rankings depend solely on GNI per capita and ignore health and education entirely."
         },
         {
           "letter": "C",
-          "text": "Country B is more developed than Country A on the HDI."
+          "text": "Country B is more developed than Country A on the HDI based on its lower per-capita income."
         },
         {
           "letter": "D",
-          "text": "The three indicators in the table are not used in HDI calculations."
+          "text": "The three indicators shown in the table are not used in standard HDI calculations."
         }
       ],
       "correct_letters": [
@@ -4036,19 +4036,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country E likely has a higher (worse) Gender Inequality Index score because all three indicators reflect substantially greater inequality."
+          "text": "Country E likely has a higher (worse) GII score because all three indicators show substantially greater inequality."
         },
         {
           "letter": "B",
-          "text": "The GII does not consider maternal mortality."
+          "text": "The GII does not consider maternal mortality, only political and labor force participation."
         },
         {
           "letter": "C",
-          "text": "Country D has more gender inequality than Country E."
+          "text": "Country D has more gender inequality than Country E given its share of legislative seats."
         },
         {
           "letter": "D",
-          "text": "The two countries have equivalent GII scores."
+          "text": "The two countries have effectively equivalent GII scores once the indicators are weighted."
         }
       ],
       "correct_letters": [
@@ -4071,19 +4071,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Produce every good domestically that they consume"
+          "text": "Produce every good domestically that their citizens consume to maximize self-sufficiency"
         },
         {
           "letter": "B",
-          "text": "Specialize in producing goods for which they have a relatively lower opportunity cost and trade for the rest"
+          "text": "Specialize in goods for which they have a relatively lower opportunity cost and trade for the rest"
         },
         {
           "letter": "C",
-          "text": "Avoid trade with core economies"
+          "text": "Avoid trade with core economies and trade only within their regional bloc"
         },
         {
           "letter": "D",
-          "text": "Match the export profile of their largest trading partner"
+          "text": "Match the export profile of their single largest trading partner as closely as possible"
         }
       ],
       "correct_letters": [
@@ -4106,7 +4106,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "A return to Fordism"
+          "text": "A return to Fordism, with stable mass production and lifetime factory employment"
         },
         {
           "letter": "B",
@@ -4114,11 +4114,11 @@
         },
         {
           "letter": "C",
-          "text": "A move from semi-periphery to periphery in Wallerstein's framework"
+          "text": "A downward move from semi-periphery to periphery within Wallerstein's framework"
         },
         {
           "letter": "D",
-          "text": "Deglobalization"
+          "text": "Deglobalization driven by the retreat of multinational firms from the region"
         }
       ],
       "correct_letters": [
@@ -4141,19 +4141,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Maximizes GDP growth without regard to other factors"
+          "text": "Maximizes GDP growth in the short term without regard to environmental or social factors"
         },
         {
           "letter": "B",
-          "text": "Meets the needs of the present without compromising the ability of future generations to meet their own needs"
+          "text": "Meets present needs without compromising the ability of future generations to meet their own"
         },
         {
           "letter": "C",
-          "text": "Returns societies to pre-industrial economic patterns"
+          "text": "Returns societies to pre-industrial economic patterns to lower their environmental footprint"
         },
         {
           "letter": "D",
-          "text": "Is led entirely by supranational organizations"
+          "text": "Is led entirely by supranational organizations rather than by national or local actors"
         }
       ],
       "correct_letters": [
@@ -4176,19 +4176,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Country J's national HDI accurately represents conditions across the country."
+          "text": "Country J's single national HDI score accurately represents living conditions across the country."
         },
         {
           "letter": "B",
-          "text": "Examining development indicators only at the national scale can hide significant regional and local inequality."
+          "text": "Looking at development indicators only at the national scale can hide significant regional and local inequality."
         },
         {
           "letter": "C",
-          "text": "The southern region is uniformly less developed than the northern region."
+          "text": "The southern region is uniformly less developed than the northern region at every level of analysis."
         },
         {
           "letter": "D",
-          "text": "Urban areas always have lower HDI than rural areas."
+          "text": "Urban areas always show a lower HDI than rural areas because of overcrowding and pollution."
         }
       ],
       "correct_letters": [
