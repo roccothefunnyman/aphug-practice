@@ -191,14 +191,6 @@ html, body {
 .seg-correct { background: linear-gradient(90deg, #4ade80, var(--good)); }
 .seg-wrong   { background: linear-gradient(90deg, #fca5a5, var(--bad)); }
 
-.section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 8px 18px;
-  margin-top: 4px;
-}
-.section-grid .progress-row .progress-bar { height: 6px; }
-.section-grid .progress-name { font-weight: 600; }
 
 .stage {
   display: flex;
@@ -314,6 +306,31 @@ html, body {
   color: var(--ink-faint);
   letter-spacing: 0.4px;
 }
+
+/* Per-question countdown timer */
+.q-timer {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--ink-soft);
+  border: 1px solid var(--border-strong);
+  font-variant-numeric: tabular-nums;
+  min-width: 56px;
+  text-align: center;
+}
+.q-timer.warn    { background: var(--warn-soft);  color: var(--warn-text);  border-color: var(--warn); }
+.q-timer.danger  { background: var(--bad-soft);   color: var(--bad-text);   border-color: var(--bad); animation: timer-pulse 1s ease-in-out infinite; }
+.q-timer.expired { background: var(--bad);        color: white;             border-color: var(--bad); animation: none; }
+@keyframes timer-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(248, 81, 73, 0.4); }
+  50%      { box-shadow: 0 0 0 6px rgba(248, 81, 73, 0); }
+}
+.slide-voice-controls { margin-left: 8px; }
 
 /* Set tags (S1 / S2) */
 .tag-set { font-weight: 700; }

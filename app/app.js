@@ -24,7 +24,6 @@
   const overallWrongEl = document.getElementById("overall-wrong");
   const overallFillCorrect = document.getElementById("overall-fill-correct");
   const overallFillWrong = document.getElementById("overall-fill-wrong");
-  const sectionGridEl = document.getElementById("section-grid");
 
   const voiceSettingsBtn = document.getElementById("voice-settings-btn");
   const voiceOnlyBadge = document.getElementById("voice-only-badge");
@@ -627,58 +626,57 @@
     openPicker(prefill);
   });
 
-  /* ---------- Progress bars ---------- */
+  /* ---------- Per-question countdown timer ---------- */
+  const TIMER_SECONDS = 90;
+  let timerHandle = null;
+  let timerRemaining = TIMER_SECONDS;
+
+  function stopTimer() {
+    if (timerHandle) {
+      clearInterval(timerHandle);
+      timerHandle = null;
+    }
+  }
+  function paintTimer() {
+    const el = document.getElementById("q-timer");
+    if (!el) return;
+    const m = Math.floor(timerRemaining / 60);
+    const s = timerRemaining % 60;
+    el.textContent = m + ":" + (s < 10 ? "0" : "") + s;
+    el.classList.remove("warn", "danger", "expired");
+    if (timerRemaining <= 0) el.classList.add("expired");
+    else if (timerRemaining <= 10) el.classList.add("danger");
+    else if (timerRemaining <= 30) el.classList.add("warn");
+  }
+  function startTimerForQuestion() {
+    stopTimer();
+    timerRemaining = TIMER_SECONDS;
+    paintTimer();
+    timerHandle = setInterval(() => {
+      if (revealed) { stopTimer(); return; }
+      timerRemaining = Math.max(0, timerRemaining - 1);
+      paintTimer();
+      if (timerRemaining === 0) stopTimer();
+    }, 1000);
+  }
+
+  /* ---------- Progress bar (overall only) ---------- */
   function renderProgress() {
     const total = order.length;
     let correct = 0, wrong = 0;
-    const byUnit = {};
-    for (let u = 1; u <= 7; u++) byUnit[u] = { total: 0, correct: 0, wrong: 0 };
-
     order.forEach(idx => {
       const q = questions[idx];
       if (!q) return;
-      const u = q.unit;
-      if (byUnit[u]) byUnit[u].total += 1;
       const s = stats[q.id];
-      if (s === "correct") {
-        correct += 1;
-        if (byUnit[u]) byUnit[u].correct += 1;
-      } else if (s === "wrong") {
-        wrong += 1;
-        if (byUnit[u]) byUnit[u].wrong += 1;
-      }
+      if (s === "correct") correct += 1;
+      else if (s === "wrong") wrong += 1;
     });
-
     overallAnsweredEl.textContent = String(correct + wrong);
     overallTotalEl.textContent = String(total);
     overallCorrectEl.textContent = String(correct);
     overallWrongEl.textContent = String(wrong);
     overallFillCorrect.style.width = total ? (correct / total * 100) + "%" : "0%";
     overallFillWrong.style.width   = total ? (wrong   / total * 100) + "%" : "0%";
-
-    sectionGridEl.innerHTML = [1,2,3,4,5,6,7].map(u => {
-      const c = byUnit[u];
-      if (c.total === 0) return "";
-      const pctC = c.correct / c.total * 100;
-      const pctW = c.wrong   / c.total * 100;
-      return `
-        <div class="progress-row">
-          <div class="progress-label">
-            <span class="progress-name cat-unit-${u}">${escapeHtml(unitShort(u))}</span>
-            <span class="progress-counts">
-              ${c.correct + c.wrong} / ${c.total}
-              <span class="progress-detail">
-                <span class="dot dot-good"></span>${c.correct}
-                <span class="dot dot-bad"></span>${c.wrong}
-              </span>
-            </span>
-          </div>
-          <div class="progress-bar">
-            <div class="seg seg-correct" style="width:${pctC}%"></div>
-            <div class="seg seg-wrong" style="width:${pctW}%"></div>
-          </div>
-        </div>`;
-    }).join("");
   }
 
   /* ---------- Slide rendering ---------- */
@@ -701,7 +699,8 @@
         : "";
       voiceCtl = `<span class="slide-voice-controls">${readBtn}${micBtn}</span>`;
     }
-    return `<div class="slide-meta">${tags.join("")}${voiceCtl}</div>
+    const timer = `<span id="q-timer" class="q-timer" title="90-second timer per question">1:30</span>`;
+    return `<div class="slide-meta">${tags.join("")}${timer}${voiceCtl}</div>
             <div class="question-text">${renderMarkdown(q.question_text || "")}</div>`;
   }
 
@@ -776,6 +775,12 @@
     attachHandlers(q);
     updateFooter(q);
     renderProgress();
+    if (revealed) {
+      stopTimer();
+      paintTimer();
+    } else {
+      startTimerForQuestion();
+    }
     maybeVoiceOnlyOnRender(q);
   }
 
@@ -798,6 +803,7 @@
 
   function finalizeReveal(q) {
     revealed = true;
+    stopTimer();
     const v = gradeAll(q);
     if (v === "correct" || v === "wrong") recordResult(q.id, v);
     saveSession();
